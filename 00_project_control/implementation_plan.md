@@ -1,0 +1,235 @@
+# Implementation Plan — API-First Build Sequence
+
+Reference: `00_project_control/master_project_instructions.md.md`
+This plan is planning-only. No application code is created by this document.
+
+---
+
+## Guiding Principle
+
+```text
+API fetch → cache → validate → process → app reads processed outputs
+```
+
+Never: `app page load → live API call → calculation → chart`.
+
+---
+
+## Phase 0 — Lock Decisions (COMPLETE)
+
+Outputs:
+
+- Project name locked
+- Fund universe locked
+- Scheme codes marked for API metadata verification
+- Benchmark map locked
+- Jan 2021 onward locked
+- Streamlit-first public artifact locked
+- API-first data pipeline locked
+
+Status: **Done** (this document set is the record of that lock).
+
+---
+
+## Phase 1 — Project Scaffold
+
+Create folders and placeholder files only (no logic).
+
+```text
+00_project_control/   01_raw_data/api_cache/{mutual_funds,benchmarks,metadata}/
+01_raw_data/scheme_master/   02_processed_data/   03_excel_model/
+04_streamlit_app/{pages,src,assets}/   05_powerbi_dashboard/
+06_outputs/{charts,dashboard_screenshots,carousel_slides,memo_pdf}/
+07_linkedin/
+README.md, requirements.txt, app.py, .gitignore
+```
+
+Pass condition: full folder tree exists; no calculations, no data fetched, no fake outputs.
+
+---
+
+## Phase 2 — API Fetch Layer
+
+Implement `04_streamlit_app/src/api_fetch.py`.
+
+Tasks:
+
+1. Fetch all mutual fund NAVs from MFAPI.
+2. Verify scheme metadata against `expected_scheme_name`.
+3. Cache mutual fund data (`01_raw_data/api_cache/mutual_funds/`).
+4. Fetch benchmark/index data programmatically.
+5. Cache benchmark data (`01_raw_data/api_cache/benchmarks/`).
+6. Build `HYBRID_65_35`.
+7. Save clean daily NAV and benchmark CSVs.
+
+Pass condition: `nav_daily_clean.csv` and `benchmark_daily.csv` are generated without manual input.
+
+---
+
+## Phase 3 — Data Validation
+
+Implement `04_streamlit_app/src/data_cleaning.py`.
+
+- Validate `nav_daily_clean.csv` and `benchmark_daily.csv`.
+- Remove duplicates, enforce schema, enforce date range from 2021-01-01.
+- Generate `02_processed_data/data_quality_report.csv`.
+
+Pass condition: no fund or required benchmark has `FAIL` status.
+
+---
+
+## Phase 4 — Returns Engine
+
+Implement `04_streamlit_app/src/returns.py`.
+
+Generate:
+
+- `returns_daily.csv` (fund, within-`fund_label` daily returns)
+- `nav_monthly.csv` / `returns_monthly.csv`
+- `benchmark_daily.csv` returns / `benchmark_monthly.csv`
+
+Pass condition: no cross-fund date bleed; no forward-filled NAVs.
+
+---
+
+## Phase 5 — Metrics Engine
+
+Implement `04_streamlit_app/src/metrics.py`.
+
+Generate `metrics_summary.csv`: CAGR, annualized volatility, downside deviation, Sharpe, Sortino, max drawdown, recovery period, best/worst month, positive month ratio, Daily/Monthly VaR 95, Daily/Monthly CVaR 95.
+
+Implement `04_streamlit_app/src/rolling_metrics.py`.
+
+Generate `rolling_metrics.csv`: rolling 3M/6M/12M/24M/36M returns (+ annualized 12/24/36M), rolling 63D/126D/252D volatility, rolling 252D Sharpe.
+
+Pass condition: all metrics labelled with correct frequency; no daily/monthly annualization mixing; early-window rolling values remain `NaN` (no forward-fill).
+
+---
+
+## Phase 6 — Benchmark Analytics
+
+Implement `04_streamlit_app/src/benchmarks.py`.
+
+Generate `benchmark_metrics.csv` and `rolling_benchmark_metrics.csv`: excess return, beta, tracking error, information ratio, upside/downside capture, rolling 252D beta / tracking error / information ratio.
+
+Pass condition: each fund matched to its own primary benchmark only; dates aligned before calculation.
+
+---
+
+## Phase 7 — Stress and Attribution
+
+Implement `04_streamlit_app/src/stress.py` → `stress_results.csv`:
+
+- Historical replay (worst 1M / 3M / 20-trading-day portfolio period, worst small-cap fund period, worst benchmark drawdown period)
+- Deterministic stress (from `stress_scenarios.csv`)
+- Interactive custom shocks (function contract only; UI wiring happens in Phase 9)
+
+Implement `04_streamlit_app/src/attribution.py` → `attribution_results.csv`:
+
+- Fund loss contribution, total portfolio stress return, stress loss share, loss amount ₹, post-stress portfolio value.
+
+Pass condition: deterministic scenarios labelled illustrative, not forecasts; attribution distinguishes allocation weight from stress loss share.
+
+---
+
+## Phase 8 — Suitability
+
+Implement `04_streamlit_app/src/suitability.py` → `suitability_results.csv`.
+
+Client profiles: Conservative, Balanced, Growth, Aggressive.
+Factors: max drawdown, volatility, Daily CVaR 95, small-cap exposure, rolling beta, downside capture, stress loss share, recovery period.
+Roles: Core, Satellite, Defensive sleeve, Aggressive satellite, Watchlist, Unsuitable for profile.
+Actions: Retain, Cap exposure, Stagger allocation, Pair with defensive sleeve, Review benchmark-relative behaviour, Avoid for low drawdown tolerance.
+
+Pass condition: language is diagnostic/educational only — no investment recommendations.
+
+---
+
+## Phase 9 — Streamlit App
+
+Build pages one by one, reading only from `02_processed_data/`:
+
+1. Executive Risk Review
+2. Fund Due Diligence
+3. Benchmark Behaviour
+4. Rolling Risk & Return
+5. Drawdown & Tail Risk
+6. Scenario Stress Testing
+7. Suitability & Action Board
+8. Methodology
+
+Pass condition: no page triggers a live API call on import or on normal navigation; a protected refresh action (if added) is explicit and separate from page load.
+
+---
+
+## Phase 10 — Excel Model of Record
+
+Generate `03_excel_model/MF_Risk_Diagnostic_Model.xlsx` from processed CSVs (18 sheets: `00_Model_Control` → `18_Memo_Inputs`). No manual data entry.
+
+---
+
+## Phase 11 — Power BI Screenshot Deck
+
+Build 3 pages (Executive Risk Review, Fund Deep Dive, Stress & Suitability) for polished screenshots only — not the primary app.
+
+---
+
+## Phase 12 — GitHub / Notion / LinkedIn
+
+Publish README, Notion methodology note, and LinkedIn carousel using the locked positioning language.
+
+---
+
+## Cursor Prompt Pack Sequence (for reference)
+
+1. Planning only (this document set) — **current step**
+2. Scaffold (folders + placeholder files)
+3. Config files (`fund_master.csv`, `benchmark_map.csv`, `portfolio_weights.csv`, `stress_scenarios.csv`)
+4. API Fetch Core (`api_fetch.py`)
+5. Refresh Script (`refresh_data.py`)
+6. Data validation, returns, metrics, rolling metrics, benchmark analytics, stress, attribution, suitability (one module at a time)
+7. Streamlit pages (one at a time)
+8. Excel model, Power BI, publication assets
+
+---
+
+## Final Quality Gates (Do Not Publish Until All True)
+
+```text
+[ ] Fund NAV data is fetched programmatically.
+[ ] Benchmark/index data is fetched programmatically.
+[ ] No manual NAV/TRI input is required.
+[ ] API cache exists.
+[ ] Streamlit does not fetch live data on every page load.
+[ ] Fund scheme metadata is verified.
+[ ] Benchmark source quality is labelled.
+[ ] Price-index fallback is not mislabelled as TRI.
+[ ] HYBRID_65_35 methodology is disclosed.
+[ ] Data quality report is generated.
+[ ] Daily returns are calculated correctly.
+[ ] Monthly returns are calculated correctly.
+[ ] Rolling 3M/6M/12M/24M/36M returns exist.
+[ ] Rolling volatility exists.
+[ ] Rolling Sharpe exists.
+[ ] Rolling beta exists.
+[ ] Rolling tracking error exists.
+[ ] Rolling information ratio exists.
+[ ] Max drawdown uses daily data.
+[ ] VaR/CVaR frequency is labelled.
+[ ] Benchmarks are fund-specific.
+[ ] Stress tests include historical replay and deterministic shocks.
+[ ] Attribution shows allocation weight vs stress loss share.
+[ ] Suitability page exists.
+[ ] Methodology page explains API/cache/data limitations.
+[ ] Excel model of record is generated from processed data.
+[ ] Streamlit app is deployed.
+[ ] Power BI screenshots are exported.
+[ ] README is recruiter-ready.
+[ ] LinkedIn carousel has one insight per slide.
+```
+
+---
+
+## Immediate Next Step (Post Phase 0)
+
+**Phase 1 — Project Scaffold**: create the full folder structure and placeholder files exactly as specified in `master_project_instructions.md.md` §9, with no calculation logic, no data fetches, and no fake outputs. This should be run as its own isolated step (Cursor Prompt 2), separate from the planning work in this document set.

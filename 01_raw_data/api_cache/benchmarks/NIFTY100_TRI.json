@@ -1,0 +1,6764 @@
+{
+  "fetched_at": "2026-07-04T13:29:57.018034+00:00",
+  "payload": {
+    "records": [
+      {
+        "date": "2021-01-04",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14267.0498046875
+      },
+      {
+        "date": "2021-01-05",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14355.900390625
+      },
+      {
+        "date": "2021-01-06",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14305.650390625
+      },
+      {
+        "date": "2021-01-07",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14305.5
+      },
+      {
+        "date": "2021-01-08",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14514.349609375
+      },
+      {
+        "date": "2021-01-11",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14642.0498046875
+      },
+      {
+        "date": "2021-01-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14705.5
+      },
+      {
+        "date": "2021-01-13",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14694.9501953125
+      },
+      {
+        "date": "2021-01-14",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14731.150390625
+      },
+      {
+        "date": "2021-01-15",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14558.7998046875
+      },
+      {
+        "date": "2021-01-18",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14390.0498046875
+      },
+      {
+        "date": "2021-01-19",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14632.2001953125
+      },
+      {
+        "date": "2021-01-20",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14751.2998046875
+      },
+      {
+        "date": "2021-01-21",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14686.5498046875
+      },
+      {
+        "date": "2021-01-22",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14479.599609375
+      },
+      {
+        "date": "2021-01-25",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14348.4501953125
+      },
+      {
+        "date": "2021-01-27",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14085.849609375
+      },
+      {
+        "date": "2021-01-28",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 13947.25
+      },
+      {
+        "date": "2021-01-29",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 13743.2998046875
+      },
+      {
+        "date": "2021-02-01",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14361.650390625
+      },
+      {
+        "date": "2021-02-02",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14720.5498046875
+      },
+      {
+        "date": "2021-02-03",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14854.0
+      },
+      {
+        "date": "2021-02-04",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14977.150390625
+      },
+      {
+        "date": "2021-02-05",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14988.9501953125
+      },
+      {
+        "date": "2021-02-08",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15177.9501953125
+      },
+      {
+        "date": "2021-02-09",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15171.25
+      },
+      {
+        "date": "2021-02-10",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15176.400390625
+      },
+      {
+        "date": "2021-02-11",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15249.650390625
+      },
+      {
+        "date": "2021-02-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15245.75
+      },
+      {
+        "date": "2021-02-15",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15399.2001953125
+      },
+      {
+        "date": "2021-02-16",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15406.0
+      },
+      {
+        "date": "2021-02-17",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15318.5
+      },
+      {
+        "date": "2021-02-18",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15249.5
+      },
+      {
+        "date": "2021-02-19",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15102.650390625
+      },
+      {
+        "date": "2021-02-22",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14802.4501953125
+      },
+      {
+        "date": "2021-02-23",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14844.25
+      },
+      {
+        "date": "2021-02-24",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15094.849609375
+      },
+      {
+        "date": "2021-02-25",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15209.0
+      },
+      {
+        "date": "2021-02-26",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14667.599609375
+      },
+      {
+        "date": "2021-03-01",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14889.650390625
+      },
+      {
+        "date": "2021-03-02",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15061.599609375
+      },
+      {
+        "date": "2021-03-03",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15379.5
+      },
+      {
+        "date": "2021-03-04",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15238.75
+      },
+      {
+        "date": "2021-03-05",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15084.349609375
+      },
+      {
+        "date": "2021-03-08",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15096.849609375
+      },
+      {
+        "date": "2021-03-09",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15206.0
+      },
+      {
+        "date": "2021-03-10",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15284.849609375
+      },
+      {
+        "date": "2021-03-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15140.150390625
+      },
+      {
+        "date": "2021-03-15",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15040.849609375
+      },
+      {
+        "date": "2021-03-16",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15033.2998046875
+      },
+      {
+        "date": "2021-03-17",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14828.849609375
+      },
+      {
+        "date": "2021-03-18",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14662.5
+      },
+      {
+        "date": "2021-03-19",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14847.25
+      },
+      {
+        "date": "2021-03-22",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14859.7001953125
+      },
+      {
+        "date": "2021-03-23",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14952.099609375
+      },
+      {
+        "date": "2021-03-24",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14690.0498046875
+      },
+      {
+        "date": "2021-03-25",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14450.5498046875
+      },
+      {
+        "date": "2021-03-26",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14633.5
+      },
+      {
+        "date": "2021-03-30",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14936.0498046875
+      },
+      {
+        "date": "2021-03-31",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14807.4501953125
+      },
+      {
+        "date": "2021-04-01",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14993.0498046875
+      },
+      {
+        "date": "2021-04-05",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14775.7001953125
+      },
+      {
+        "date": "2021-04-06",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14836.25
+      },
+      {
+        "date": "2021-04-07",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14973.9501953125
+      },
+      {
+        "date": "2021-04-08",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15036.150390625
+      },
+      {
+        "date": "2021-04-09",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15004.150390625
+      },
+      {
+        "date": "2021-04-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14450.0498046875
+      },
+      {
+        "date": "2021-04-13",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14639.400390625
+      },
+      {
+        "date": "2021-04-15",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14719.25
+      },
+      {
+        "date": "2021-04-16",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14773.2001953125
+      },
+      {
+        "date": "2021-04-19",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14512.849609375
+      },
+      {
+        "date": "2021-04-20",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14466.7998046875
+      },
+      {
+        "date": "2021-04-22",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14564.25
+      },
+      {
+        "date": "2021-04-23",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14510.9501953125
+      },
+      {
+        "date": "2021-04-26",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14645.900390625
+      },
+      {
+        "date": "2021-04-27",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14807.75
+      },
+      {
+        "date": "2021-04-28",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15004.650390625
+      },
+      {
+        "date": "2021-04-29",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15029.9501953125
+      },
+      {
+        "date": "2021-04-30",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14790.599609375
+      },
+      {
+        "date": "2021-05-03",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14811.2001953125
+      },
+      {
+        "date": "2021-05-04",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14683.7001953125
+      },
+      {
+        "date": "2021-05-05",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14823.2001953125
+      },
+      {
+        "date": "2021-05-06",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14928.599609375
+      },
+      {
+        "date": "2021-05-07",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15021.650390625
+      },
+      {
+        "date": "2021-05-10",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15146.650390625
+      },
+      {
+        "date": "2021-05-11",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15071.400390625
+      },
+      {
+        "date": "2021-05-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14940.0
+      },
+      {
+        "date": "2021-05-14",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 14893.2001953125
+      },
+      {
+        "date": "2021-05-17",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15134.150390625
+      },
+      {
+        "date": "2021-05-18",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15325.0
+      },
+      {
+        "date": "2021-05-19",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15272.5498046875
+      },
+      {
+        "date": "2021-05-20",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15164.4501953125
+      },
+      {
+        "date": "2021-05-21",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15408.5498046875
+      },
+      {
+        "date": "2021-05-24",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15445.2001953125
+      },
+      {
+        "date": "2021-05-25",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15445.599609375
+      },
+      {
+        "date": "2021-05-26",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15522.349609375
+      },
+      {
+        "date": "2021-05-27",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15564.349609375
+      },
+      {
+        "date": "2021-05-28",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15650.349609375
+      },
+      {
+        "date": "2021-05-31",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15798.7001953125
+      },
+      {
+        "date": "2021-06-01",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15789.400390625
+      },
+      {
+        "date": "2021-06-02",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15832.2001953125
+      },
+      {
+        "date": "2021-06-03",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15952.650390625
+      },
+      {
+        "date": "2021-06-04",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15945.849609375
+      },
+      {
+        "date": "2021-06-07",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16018.599609375
+      },
+      {
+        "date": "2021-06-08",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16017.2001953125
+      },
+      {
+        "date": "2021-06-09",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15904.75
+      },
+      {
+        "date": "2021-06-10",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16021.5
+      },
+      {
+        "date": "2021-06-11",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16079.599609375
+      },
+      {
+        "date": "2021-06-14",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16079.7001953125
+      },
+      {
+        "date": "2021-06-15",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16136.650390625
+      },
+      {
+        "date": "2021-06-16",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16025.5498046875
+      },
+      {
+        "date": "2021-06-17",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15936.2001953125
+      },
+      {
+        "date": "2021-06-18",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15915.5498046875
+      },
+      {
+        "date": "2021-06-21",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15991.25
+      },
+      {
+        "date": "2021-06-22",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16026.9501953125
+      },
+      {
+        "date": "2021-06-23",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15933.150390625
+      },
+      {
+        "date": "2021-06-24",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16011.5498046875
+      },
+      {
+        "date": "2021-06-25",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16087.2001953125
+      },
+      {
+        "date": "2021-06-28",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16055.2001953125
+      },
+      {
+        "date": "2021-06-29",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15992.099609375
+      },
+      {
+        "date": "2021-06-30",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15959.400390625
+      },
+      {
+        "date": "2021-07-01",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15928.099609375
+      },
+      {
+        "date": "2021-07-02",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15957.099609375
+      },
+      {
+        "date": "2021-07-05",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16066.900390625
+      },
+      {
+        "date": "2021-07-06",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16054.900390625
+      },
+      {
+        "date": "2021-07-07",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16117.400390625
+      },
+      {
+        "date": "2021-07-08",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15981.9501953125
+      },
+      {
+        "date": "2021-07-09",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15952.400390625
+      },
+      {
+        "date": "2021-07-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15955.9501953125
+      },
+      {
+        "date": "2021-07-13",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16055.599609375
+      },
+      {
+        "date": "2021-07-14",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16091.5
+      },
+      {
+        "date": "2021-07-15",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16160.2001953125
+      },
+      {
+        "date": "2021-07-16",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16172.0498046875
+      },
+      {
+        "date": "2021-07-19",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16006.900390625
+      },
+      {
+        "date": "2021-07-20",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15886.25
+      },
+      {
+        "date": "2021-07-22",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16094.25
+      },
+      {
+        "date": "2021-07-23",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16119.099609375
+      },
+      {
+        "date": "2021-07-26",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16094.2001953125
+      },
+      {
+        "date": "2021-07-27",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16011.0498046875
+      },
+      {
+        "date": "2021-07-28",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15983.900390625
+      },
+      {
+        "date": "2021-07-29",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16045.2001953125
+      },
+      {
+        "date": "2021-07-30",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16040.150390625
+      },
+      {
+        "date": "2021-08-02",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16166.9501953125
+      },
+      {
+        "date": "2021-08-03",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16399.94921875
+      },
+      {
+        "date": "2021-08-04",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16494.55078125
+      },
+      {
+        "date": "2021-08-05",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16520.5
+      },
+      {
+        "date": "2021-08-06",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16476.55078125
+      },
+      {
+        "date": "2021-08-09",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16483.44921875
+      },
+      {
+        "date": "2021-08-10",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16493.849609375
+      },
+      {
+        "date": "2021-08-11",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16490.150390625
+      },
+      {
+        "date": "2021-08-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16569.30078125
+      },
+      {
+        "date": "2021-08-13",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16716.150390625
+      },
+      {
+        "date": "2021-08-16",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16748.0
+      },
+      {
+        "date": "2021-08-17",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16805.150390625
+      },
+      {
+        "date": "2021-08-18",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16778.80078125
+      },
+      {
+        "date": "2021-08-20",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16642.150390625
+      },
+      {
+        "date": "2021-08-23",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16673.349609375
+      },
+      {
+        "date": "2021-08-24",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16808.0
+      },
+      {
+        "date": "2021-08-25",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16830.099609375
+      },
+      {
+        "date": "2021-08-26",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16841.599609375
+      },
+      {
+        "date": "2021-08-27",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16930.849609375
+      },
+      {
+        "date": "2021-08-30",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17164.19921875
+      },
+      {
+        "date": "2021-08-31",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17373.099609375
+      },
+      {
+        "date": "2021-09-01",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17343.30078125
+      },
+      {
+        "date": "2021-09-02",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17504.599609375
+      },
+      {
+        "date": "2021-09-03",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17597.44921875
+      },
+      {
+        "date": "2021-09-06",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17641.0
+      },
+      {
+        "date": "2021-09-07",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17618.69921875
+      },
+      {
+        "date": "2021-09-08",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17626.19921875
+      },
+      {
+        "date": "2021-09-09",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17652.900390625
+      },
+      {
+        "date": "2021-09-13",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17648.599609375
+      },
+      {
+        "date": "2021-09-14",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17678.44921875
+      },
+      {
+        "date": "2021-09-15",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17809.5
+      },
+      {
+        "date": "2021-09-16",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17925.05078125
+      },
+      {
+        "date": "2021-09-17",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17864.55078125
+      },
+      {
+        "date": "2021-09-20",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17654.099609375
+      },
+      {
+        "date": "2021-09-21",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17817.94921875
+      },
+      {
+        "date": "2021-09-22",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17817.69921875
+      },
+      {
+        "date": "2021-09-23",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18085.80078125
+      },
+      {
+        "date": "2021-09-24",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18090.19921875
+      },
+      {
+        "date": "2021-09-27",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18085.55078125
+      },
+      {
+        "date": "2021-09-28",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17973.150390625
+      },
+      {
+        "date": "2021-09-29",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17926.05078125
+      },
+      {
+        "date": "2021-09-30",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17845.099609375
+      },
+      {
+        "date": "2021-10-01",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17778.55078125
+      },
+      {
+        "date": "2021-10-04",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17956.75
+      },
+      {
+        "date": "2021-10-05",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18082.80078125
+      },
+      {
+        "date": "2021-10-06",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17905.849609375
+      },
+      {
+        "date": "2021-10-07",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18058.0
+      },
+      {
+        "date": "2021-10-08",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18141.69921875
+      },
+      {
+        "date": "2021-10-11",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18198.900390625
+      },
+      {
+        "date": "2021-10-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18258.849609375
+      },
+      {
+        "date": "2021-10-13",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18433.19921875
+      },
+      {
+        "date": "2021-10-14",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18610.349609375
+      },
+      {
+        "date": "2021-10-18",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18734.900390625
+      },
+      {
+        "date": "2021-10-19",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18646.150390625
+      },
+      {
+        "date": "2021-10-20",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18467.75
+      },
+      {
+        "date": "2021-10-21",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18374.099609375
+      },
+      {
+        "date": "2021-10-22",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18285.150390625
+      },
+      {
+        "date": "2021-10-25",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18272.400390625
+      },
+      {
+        "date": "2021-10-26",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18425.150390625
+      },
+      {
+        "date": "2021-10-27",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18390.05078125
+      },
+      {
+        "date": "2021-10-28",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18028.099609375
+      },
+      {
+        "date": "2021-10-29",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17880.80078125
+      },
+      {
+        "date": "2021-11-01",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18134.599609375
+      },
+      {
+        "date": "2021-11-02",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18101.0
+      },
+      {
+        "date": "2021-11-03",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18066.94921875
+      },
+      {
+        "date": "2021-11-04",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18156.150390625
+      },
+      {
+        "date": "2021-11-08",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18320.650390625
+      },
+      {
+        "date": "2021-11-09",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18309.05078125
+      },
+      {
+        "date": "2021-11-10",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18291.75
+      },
+      {
+        "date": "2021-11-11",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18156.80078125
+      },
+      {
+        "date": "2021-11-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18389.5
+      },
+      {
+        "date": "2021-11-15",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18401.650390625
+      },
+      {
+        "date": "2021-11-16",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18301.44921875
+      },
+      {
+        "date": "2021-11-17",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18211.349609375
+      },
+      {
+        "date": "2021-11-18",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18059.5
+      },
+      {
+        "date": "2021-11-22",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17708.55078125
+      },
+      {
+        "date": "2021-11-23",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17823.5
+      },
+      {
+        "date": "2021-11-24",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17733.0
+      },
+      {
+        "date": "2021-11-25",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17861.650390625
+      },
+      {
+        "date": "2021-11-26",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17340.5
+      },
+      {
+        "date": "2021-11-29",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17339.150390625
+      },
+      {
+        "date": "2021-11-30",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17270.25
+      },
+      {
+        "date": "2021-12-01",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17444.44921875
+      },
+      {
+        "date": "2021-12-02",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17675.0
+      },
+      {
+        "date": "2021-12-03",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17493.69921875
+      },
+      {
+        "date": "2021-12-06",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17197.5
+      },
+      {
+        "date": "2021-12-07",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17464.94921875
+      },
+      {
+        "date": "2021-12-08",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17751.900390625
+      },
+      {
+        "date": "2021-12-09",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17797.80078125
+      },
+      {
+        "date": "2021-12-10",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17802.599609375
+      },
+      {
+        "date": "2021-12-13",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17664.849609375
+      },
+      {
+        "date": "2021-12-14",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17637.69921875
+      },
+      {
+        "date": "2021-12-15",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17526.349609375
+      },
+      {
+        "date": "2021-12-16",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17539.30078125
+      },
+      {
+        "date": "2021-12-17",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17249.0
+      },
+      {
+        "date": "2021-12-20",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16856.19921875
+      },
+      {
+        "date": "2021-12-21",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17037.75
+      },
+      {
+        "date": "2021-12-22",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17232.80078125
+      },
+      {
+        "date": "2021-12-23",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17360.650390625
+      },
+      {
+        "date": "2021-12-24",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17273.650390625
+      },
+      {
+        "date": "2021-12-27",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17351.80078125
+      },
+      {
+        "date": "2021-12-28",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17501.75
+      },
+      {
+        "date": "2021-12-29",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17478.80078125
+      },
+      {
+        "date": "2021-12-30",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17449.30078125
+      },
+      {
+        "date": "2021-12-31",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17618.80078125
+      },
+      {
+        "date": "2022-01-03",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17874.0
+      },
+      {
+        "date": "2022-01-04",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18030.94921875
+      },
+      {
+        "date": "2022-01-05",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18147.5
+      },
+      {
+        "date": "2022-01-06",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17985.599609375
+      },
+      {
+        "date": "2022-01-07",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18053.94921875
+      },
+      {
+        "date": "2022-01-10",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18229.099609375
+      },
+      {
+        "date": "2022-01-11",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18275.150390625
+      },
+      {
+        "date": "2022-01-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18430.25
+      },
+      {
+        "date": "2022-01-13",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18482.44921875
+      },
+      {
+        "date": "2022-01-14",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18485.69921875
+      },
+      {
+        "date": "2022-01-17",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18543.19921875
+      },
+      {
+        "date": "2022-01-18",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18331.69921875
+      },
+      {
+        "date": "2022-01-19",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18179.69921875
+      },
+      {
+        "date": "2022-01-20",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18021.099609375
+      },
+      {
+        "date": "2022-01-21",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17856.150390625
+      },
+      {
+        "date": "2022-01-24",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17353.44921875
+      },
+      {
+        "date": "2022-01-25",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17489.150390625
+      },
+      {
+        "date": "2022-01-27",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17302.349609375
+      },
+      {
+        "date": "2022-01-28",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17314.69921875
+      },
+      {
+        "date": "2022-01-31",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17547.400390625
+      },
+      {
+        "date": "2022-02-01",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17796.25
+      },
+      {
+        "date": "2022-02-02",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17998.75
+      },
+      {
+        "date": "2022-02-03",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17794.69921875
+      },
+      {
+        "date": "2022-02-04",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17755.30078125
+      },
+      {
+        "date": "2022-02-07",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17477.650390625
+      },
+      {
+        "date": "2022-02-08",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17509.80078125
+      },
+      {
+        "date": "2022-02-09",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17707.849609375
+      },
+      {
+        "date": "2022-02-10",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17842.900390625
+      },
+      {
+        "date": "2022-02-11",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17606.599609375
+      },
+      {
+        "date": "2022-02-14",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17060.69921875
+      },
+      {
+        "date": "2022-02-15",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17560.55078125
+      },
+      {
+        "date": "2022-02-16",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17530.650390625
+      },
+      {
+        "date": "2022-02-17",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17524.44921875
+      },
+      {
+        "date": "2022-02-18",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17472.900390625
+      },
+      {
+        "date": "2022-02-21",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17379.099609375
+      },
+      {
+        "date": "2022-02-22",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17276.5
+      },
+      {
+        "date": "2022-02-23",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17273.44921875
+      },
+      {
+        "date": "2022-02-24",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16428.05078125
+      },
+      {
+        "date": "2022-02-25",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16872.349609375
+      },
+      {
+        "date": "2022-02-28",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17016.55078125
+      },
+      {
+        "date": "2022-03-02",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16855.69921875
+      },
+      {
+        "date": "2022-03-03",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16761.599609375
+      },
+      {
+        "date": "2022-03-04",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16482.849609375
+      },
+      {
+        "date": "2022-03-07",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16086.9501953125
+      },
+      {
+        "date": "2022-03-08",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16251.650390625
+      },
+      {
+        "date": "2022-03-09",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16571.55078125
+      },
+      {
+        "date": "2022-03-10",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16835.5
+      },
+      {
+        "date": "2022-03-11",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16877.69921875
+      },
+      {
+        "date": "2022-03-14",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17076.599609375
+      },
+      {
+        "date": "2022-03-15",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16873.44921875
+      },
+      {
+        "date": "2022-03-16",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17198.0
+      },
+      {
+        "date": "2022-03-17",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17505.400390625
+      },
+      {
+        "date": "2022-03-21",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17323.650390625
+      },
+      {
+        "date": "2022-03-22",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17499.19921875
+      },
+      {
+        "date": "2022-03-23",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17446.05078125
+      },
+      {
+        "date": "2022-03-24",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17429.94921875
+      },
+      {
+        "date": "2022-03-25",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17370.5
+      },
+      {
+        "date": "2022-03-28",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17422.150390625
+      },
+      {
+        "date": "2022-03-29",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17523.599609375
+      },
+      {
+        "date": "2022-03-30",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17684.30078125
+      },
+      {
+        "date": "2022-03-31",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17660.349609375
+      },
+      {
+        "date": "2022-04-01",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17879.5
+      },
+      {
+        "date": "2022-04-04",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18256.099609375
+      },
+      {
+        "date": "2022-04-05",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18195.099609375
+      },
+      {
+        "date": "2022-04-06",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18075.099609375
+      },
+      {
+        "date": "2022-04-07",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17920.80078125
+      },
+      {
+        "date": "2022-04-08",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18089.30078125
+      },
+      {
+        "date": "2022-04-11",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18032.400390625
+      },
+      {
+        "date": "2022-04-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17877.55078125
+      },
+      {
+        "date": "2022-04-13",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17835.19921875
+      },
+      {
+        "date": "2022-04-18",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17565.94921875
+      },
+      {
+        "date": "2022-04-19",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17330.400390625
+      },
+      {
+        "date": "2022-04-20",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17496.650390625
+      },
+      {
+        "date": "2022-04-21",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17750.19921875
+      },
+      {
+        "date": "2022-04-22",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17541.099609375
+      },
+      {
+        "date": "2022-04-25",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17300.349609375
+      },
+      {
+        "date": "2022-04-26",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17577.80078125
+      },
+      {
+        "date": "2022-04-27",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17398.55078125
+      },
+      {
+        "date": "2022-04-28",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17615.400390625
+      },
+      {
+        "date": "2022-04-29",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17457.19921875
+      },
+      {
+        "date": "2022-05-02",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17419.44921875
+      },
+      {
+        "date": "2022-05-04",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17004.05078125
+      },
+      {
+        "date": "2022-05-05",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17016.599609375
+      },
+      {
+        "date": "2022-05-06",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16729.55078125
+      },
+      {
+        "date": "2022-05-09",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16581.80078125
+      },
+      {
+        "date": "2022-05-10",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16466.25
+      },
+      {
+        "date": "2022-05-11",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16399.69921875
+      },
+      {
+        "date": "2022-05-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16023.900390625
+      },
+      {
+        "date": "2022-05-13",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15986.5
+      },
+      {
+        "date": "2022-05-16",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16079.0
+      },
+      {
+        "date": "2022-05-17",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16498.5
+      },
+      {
+        "date": "2022-05-18",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16485.80078125
+      },
+      {
+        "date": "2022-05-19",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16047.349609375
+      },
+      {
+        "date": "2022-05-20",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16476.69921875
+      },
+      {
+        "date": "2022-05-23",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16409.75
+      },
+      {
+        "date": "2022-05-24",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16312.2998046875
+      },
+      {
+        "date": "2022-05-25",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16187.150390625
+      },
+      {
+        "date": "2022-05-26",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16341.900390625
+      },
+      {
+        "date": "2022-05-27",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16516.80078125
+      },
+      {
+        "date": "2022-05-30",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16838.150390625
+      },
+      {
+        "date": "2022-05-31",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16767.5
+      },
+      {
+        "date": "2022-06-01",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16688.94921875
+      },
+      {
+        "date": "2022-06-02",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16794.75
+      },
+      {
+        "date": "2022-06-03",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16721.5
+      },
+      {
+        "date": "2022-06-06",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16701.19921875
+      },
+      {
+        "date": "2022-06-07",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16550.69921875
+      },
+      {
+        "date": "2022-06-08",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16492.19921875
+      },
+      {
+        "date": "2022-06-09",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16616.400390625
+      },
+      {
+        "date": "2022-06-10",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16353.5
+      },
+      {
+        "date": "2022-06-13",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15936.0498046875
+      },
+      {
+        "date": "2022-06-14",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15905.599609375
+      },
+      {
+        "date": "2022-06-15",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15874.900390625
+      },
+      {
+        "date": "2022-06-16",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15543.349609375
+      },
+      {
+        "date": "2022-06-17",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15445.7998046875
+      },
+      {
+        "date": "2022-06-20",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15481.9501953125
+      },
+      {
+        "date": "2022-06-21",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15793.150390625
+      },
+      {
+        "date": "2022-06-22",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15555.2998046875
+      },
+      {
+        "date": "2022-06-23",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15704.7998046875
+      },
+      {
+        "date": "2022-06-24",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15858.2998046875
+      },
+      {
+        "date": "2022-06-27",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15990.2998046875
+      },
+      {
+        "date": "2022-06-28",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16008.849609375
+      },
+      {
+        "date": "2022-06-29",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15952.75
+      },
+      {
+        "date": "2022-06-30",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15929.400390625
+      },
+      {
+        "date": "2022-07-01",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 15925.9501953125
+      },
+      {
+        "date": "2022-07-04",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16018.150390625
+      },
+      {
+        "date": "2022-07-05",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16001.599609375
+      },
+      {
+        "date": "2022-07-06",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16196.25
+      },
+      {
+        "date": "2022-07-07",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16339.099609375
+      },
+      {
+        "date": "2022-07-08",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16424.0
+      },
+      {
+        "date": "2022-07-11",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16465.099609375
+      },
+      {
+        "date": "2022-07-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16323.5
+      },
+      {
+        "date": "2022-07-13",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16237.25
+      },
+      {
+        "date": "2022-07-14",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16213.0498046875
+      },
+      {
+        "date": "2022-07-15",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16317.2001953125
+      },
+      {
+        "date": "2022-07-18",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16548.150390625
+      },
+      {
+        "date": "2022-07-19",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16614.05078125
+      },
+      {
+        "date": "2022-07-20",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16773.69921875
+      },
+      {
+        "date": "2022-07-21",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16881.69921875
+      },
+      {
+        "date": "2022-07-22",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16970.69921875
+      },
+      {
+        "date": "2022-07-25",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16892.099609375
+      },
+      {
+        "date": "2022-07-26",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16733.30078125
+      },
+      {
+        "date": "2022-07-27",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16889.55078125
+      },
+      {
+        "date": "2022-07-28",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17169.69921875
+      },
+      {
+        "date": "2022-07-29",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17400.75
+      },
+      {
+        "date": "2022-08-01",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17598.80078125
+      },
+      {
+        "date": "2022-08-02",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17618.25
+      },
+      {
+        "date": "2022-08-03",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17646.0
+      },
+      {
+        "date": "2022-08-04",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17652.94921875
+      },
+      {
+        "date": "2022-08-05",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17655.5
+      },
+      {
+        "date": "2022-08-08",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17784.80078125
+      },
+      {
+        "date": "2022-08-10",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17784.900390625
+      },
+      {
+        "date": "2022-08-11",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17913.94921875
+      },
+      {
+        "date": "2022-08-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17956.80078125
+      },
+      {
+        "date": "2022-08-16",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18107.25
+      },
+      {
+        "date": "2022-08-17",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18235.55078125
+      },
+      {
+        "date": "2022-08-18",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18264.400390625
+      },
+      {
+        "date": "2022-08-19",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18071.099609375
+      },
+      {
+        "date": "2022-08-22",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17792.44921875
+      },
+      {
+        "date": "2022-08-23",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17878.400390625
+      },
+      {
+        "date": "2022-08-24",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17917.30078125
+      },
+      {
+        "date": "2022-08-25",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17847.650390625
+      },
+      {
+        "date": "2022-08-26",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17893.80078125
+      },
+      {
+        "date": "2022-08-29",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17666.44921875
+      },
+      {
+        "date": "2022-08-30",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18112.400390625
+      },
+      {
+        "date": "2022-09-01",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17924.30078125
+      },
+      {
+        "date": "2022-09-02",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17916.0
+      },
+      {
+        "date": "2022-09-05",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18021.650390625
+      },
+      {
+        "date": "2022-09-06",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18031.30078125
+      },
+      {
+        "date": "2022-09-07",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18008.099609375
+      },
+      {
+        "date": "2022-09-08",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18168.849609375
+      },
+      {
+        "date": "2022-09-09",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18198.099609375
+      },
+      {
+        "date": "2022-09-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18319.80078125
+      },
+      {
+        "date": "2022-09-13",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18453.69921875
+      },
+      {
+        "date": "2022-09-14",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18405.599609375
+      },
+      {
+        "date": "2022-09-15",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18316.900390625
+      },
+      {
+        "date": "2022-09-16",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17938.099609375
+      },
+      {
+        "date": "2022-09-19",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18025.25
+      },
+      {
+        "date": "2022-09-20",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18222.099609375
+      },
+      {
+        "date": "2022-09-21",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18091.900390625
+      },
+      {
+        "date": "2022-09-22",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18030.400390625
+      },
+      {
+        "date": "2022-09-23",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17718.44921875
+      },
+      {
+        "date": "2022-09-26",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17374.80078125
+      },
+      {
+        "date": "2022-09-27",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17366.400390625
+      },
+      {
+        "date": "2022-09-28",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17219.55078125
+      },
+      {
+        "date": "2022-09-29",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17167.75
+      },
+      {
+        "date": "2022-09-30",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17438.599609375
+      },
+      {
+        "date": "2022-10-03",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17190.900390625
+      },
+      {
+        "date": "2022-10-04",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17589.30078125
+      },
+      {
+        "date": "2022-10-06",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17662.80078125
+      },
+      {
+        "date": "2022-10-07",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17641.44921875
+      },
+      {
+        "date": "2022-10-10",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17553.150390625
+      },
+      {
+        "date": "2022-10-11",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17285.849609375
+      },
+      {
+        "date": "2022-10-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17423.400390625
+      },
+      {
+        "date": "2022-10-13",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17302.150390625
+      },
+      {
+        "date": "2022-10-14",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17432.55078125
+      },
+      {
+        "date": "2022-10-17",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17560.5
+      },
+      {
+        "date": "2022-10-18",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17741.19921875
+      },
+      {
+        "date": "2022-10-19",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17756.25
+      },
+      {
+        "date": "2022-10-20",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17829.44921875
+      },
+      {
+        "date": "2022-10-21",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17808.80078125
+      },
+      {
+        "date": "2022-10-24",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17951.30078125
+      },
+      {
+        "date": "2022-10-25",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17887.400390625
+      },
+      {
+        "date": "2022-10-27",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17989.0
+      },
+      {
+        "date": "2022-10-28",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18017.19921875
+      },
+      {
+        "date": "2022-10-31",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18243.400390625
+      },
+      {
+        "date": "2022-11-01",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18383.19921875
+      },
+      {
+        "date": "2022-11-02",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18322.400390625
+      },
+      {
+        "date": "2022-11-03",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18297.400390625
+      },
+      {
+        "date": "2022-11-04",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18361.44921875
+      },
+      {
+        "date": "2022-11-07",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18450.150390625
+      },
+      {
+        "date": "2022-11-09",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18406.25
+      },
+      {
+        "date": "2022-11-10",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18267.099609375
+      },
+      {
+        "date": "2022-11-11",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18573.349609375
+      },
+      {
+        "date": "2022-11-14",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18568.400390625
+      },
+      {
+        "date": "2022-11-15",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18635.400390625
+      },
+      {
+        "date": "2022-11-16",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18615.5
+      },
+      {
+        "date": "2022-11-17",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18532.44921875
+      },
+      {
+        "date": "2022-11-18",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18483.19921875
+      },
+      {
+        "date": "2022-11-21",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18334.650390625
+      },
+      {
+        "date": "2022-11-22",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18407.5
+      },
+      {
+        "date": "2022-11-23",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18433.80078125
+      },
+      {
+        "date": "2022-11-24",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18627.25
+      },
+      {
+        "date": "2022-11-25",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18652.05078125
+      },
+      {
+        "date": "2022-11-28",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18696.75
+      },
+      {
+        "date": "2022-11-29",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18758.349609375
+      },
+      {
+        "date": "2022-11-30",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18919.55078125
+      },
+      {
+        "date": "2022-12-01",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18973.05078125
+      },
+      {
+        "date": "2022-12-02",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18870.25
+      },
+      {
+        "date": "2022-12-05",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18867.650390625
+      },
+      {
+        "date": "2022-12-06",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18821.55078125
+      },
+      {
+        "date": "2022-12-07",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18754.0
+      },
+      {
+        "date": "2022-12-08",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18802.0
+      },
+      {
+        "date": "2022-12-09",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18687.650390625
+      },
+      {
+        "date": "2022-12-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18690.80078125
+      },
+      {
+        "date": "2022-12-13",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18781.650390625
+      },
+      {
+        "date": "2022-12-14",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18837.25
+      },
+      {
+        "date": "2022-12-15",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18604.44921875
+      },
+      {
+        "date": "2022-12-16",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18446.30078125
+      },
+      {
+        "date": "2022-12-19",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18604.5
+      },
+      {
+        "date": "2022-12-20",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18570.400390625
+      },
+      {
+        "date": "2022-12-21",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18361.150390625
+      },
+      {
+        "date": "2022-12-22",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18277.849609375
+      },
+      {
+        "date": "2022-12-23",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17888.05078125
+      },
+      {
+        "date": "2022-12-27",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18263.55078125
+      },
+      {
+        "date": "2022-12-28",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18270.94921875
+      },
+      {
+        "date": "2022-12-29",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18343.599609375
+      },
+      {
+        "date": "2022-12-30",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18258.75
+      },
+      {
+        "date": "2023-01-02",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18334.30078125
+      },
+      {
+        "date": "2023-01-03",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18376.5
+      },
+      {
+        "date": "2023-01-04",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18173.44921875
+      },
+      {
+        "date": "2023-01-05",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18150.0
+      },
+      {
+        "date": "2023-01-06",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18013.94921875
+      },
+      {
+        "date": "2023-01-09",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18248.55078125
+      },
+      {
+        "date": "2023-01-10",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18081.0
+      },
+      {
+        "date": "2023-01-11",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18054.30078125
+      },
+      {
+        "date": "2023-01-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18028.30078125
+      },
+      {
+        "date": "2023-01-13",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18126.25
+      },
+      {
+        "date": "2023-01-16",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18074.19921875
+      },
+      {
+        "date": "2023-01-17",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18216.400390625
+      },
+      {
+        "date": "2023-01-18",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18307.400390625
+      },
+      {
+        "date": "2023-01-19",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18244.75
+      },
+      {
+        "date": "2023-01-20",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18169.44921875
+      },
+      {
+        "date": "2023-01-23",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18249.349609375
+      },
+      {
+        "date": "2023-01-24",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18245.349609375
+      },
+      {
+        "date": "2023-01-25",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17974.349609375
+      },
+      {
+        "date": "2023-01-27",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17594.5
+      },
+      {
+        "date": "2023-01-30",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17571.849609375
+      },
+      {
+        "date": "2023-01-31",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17601.0
+      },
+      {
+        "date": "2023-02-01",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17516.150390625
+      },
+      {
+        "date": "2023-02-02",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17490.30078125
+      },
+      {
+        "date": "2023-02-03",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17687.349609375
+      },
+      {
+        "date": "2023-02-06",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17611.44921875
+      },
+      {
+        "date": "2023-02-07",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17569.69921875
+      },
+      {
+        "date": "2023-02-08",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17719.849609375
+      },
+      {
+        "date": "2023-02-09",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17723.849609375
+      },
+      {
+        "date": "2023-02-10",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17685.44921875
+      },
+      {
+        "date": "2023-02-13",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17575.150390625
+      },
+      {
+        "date": "2023-02-14",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17702.349609375
+      },
+      {
+        "date": "2023-02-15",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17786.900390625
+      },
+      {
+        "date": "2023-02-16",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17814.900390625
+      },
+      {
+        "date": "2023-02-17",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17721.05078125
+      },
+      {
+        "date": "2023-02-20",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17626.900390625
+      },
+      {
+        "date": "2023-02-21",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17604.400390625
+      },
+      {
+        "date": "2023-02-22",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17335.0
+      },
+      {
+        "date": "2023-02-23",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17286.30078125
+      },
+      {
+        "date": "2023-02-24",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17242.150390625
+      },
+      {
+        "date": "2023-02-27",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17156.150390625
+      },
+      {
+        "date": "2023-02-28",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17083.80078125
+      },
+      {
+        "date": "2023-03-01",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17238.44921875
+      },
+      {
+        "date": "2023-03-02",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17129.650390625
+      },
+      {
+        "date": "2023-03-03",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17385.94921875
+      },
+      {
+        "date": "2023-03-06",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17506.30078125
+      },
+      {
+        "date": "2023-03-08",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17552.94921875
+      },
+      {
+        "date": "2023-03-09",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17398.30078125
+      },
+      {
+        "date": "2023-03-10",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17244.30078125
+      },
+      {
+        "date": "2023-03-13",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16997.30078125
+      },
+      {
+        "date": "2023-03-14",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16887.05078125
+      },
+      {
+        "date": "2023-03-15",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16825.05078125
+      },
+      {
+        "date": "2023-03-16",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16852.25
+      },
+      {
+        "date": "2023-03-17",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16964.80078125
+      },
+      {
+        "date": "2023-03-20",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16852.900390625
+      },
+      {
+        "date": "2023-03-21",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16970.5
+      },
+      {
+        "date": "2023-03-22",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17026.19921875
+      },
+      {
+        "date": "2023-03-23",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16958.150390625
+      },
+      {
+        "date": "2023-03-24",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16831.80078125
+      },
+      {
+        "date": "2023-03-27",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16849.30078125
+      },
+      {
+        "date": "2023-03-28",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16795.349609375
+      },
+      {
+        "date": "2023-03-29",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 16918.05078125
+      },
+      {
+        "date": "2023-03-31",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17186.150390625
+      },
+      {
+        "date": "2023-04-03",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17224.75
+      },
+      {
+        "date": "2023-04-05",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17373.94921875
+      },
+      {
+        "date": "2023-04-06",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17414.650390625
+      },
+      {
+        "date": "2023-04-10",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17446.30078125
+      },
+      {
+        "date": "2023-04-11",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17540.80078125
+      },
+      {
+        "date": "2023-04-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17626.900390625
+      },
+      {
+        "date": "2023-04-13",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17635.150390625
+      },
+      {
+        "date": "2023-04-17",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17543.44921875
+      },
+      {
+        "date": "2023-04-18",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17510.849609375
+      },
+      {
+        "date": "2023-04-19",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17455.44921875
+      },
+      {
+        "date": "2023-04-20",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17459.849609375
+      },
+      {
+        "date": "2023-04-21",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17455.25
+      },
+      {
+        "date": "2023-04-24",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17564.400390625
+      },
+      {
+        "date": "2023-04-25",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17600.05078125
+      },
+      {
+        "date": "2023-04-26",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17645.55078125
+      },
+      {
+        "date": "2023-04-27",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17739.94921875
+      },
+      {
+        "date": "2023-04-28",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17903.94921875
+      },
+      {
+        "date": "2023-05-02",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17989.30078125
+      },
+      {
+        "date": "2023-05-03",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17941.099609375
+      },
+      {
+        "date": "2023-05-04",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18099.75
+      },
+      {
+        "date": "2023-05-05",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17939.25
+      },
+      {
+        "date": "2023-05-08",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18118.5
+      },
+      {
+        "date": "2023-05-09",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18114.05078125
+      },
+      {
+        "date": "2023-05-10",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18170.849609375
+      },
+      {
+        "date": "2023-05-11",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18174.25
+      },
+      {
+        "date": "2023-05-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18181.94921875
+      },
+      {
+        "date": "2023-05-15",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18258.099609375
+      },
+      {
+        "date": "2023-05-16",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18162.25
+      },
+      {
+        "date": "2023-05-17",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18056.69921875
+      },
+      {
+        "date": "2023-05-18",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 17985.75
+      },
+      {
+        "date": "2023-05-19",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18060.349609375
+      },
+      {
+        "date": "2023-05-22",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18180.900390625
+      },
+      {
+        "date": "2023-05-23",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18219.80078125
+      },
+      {
+        "date": "2023-05-24",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18170.0
+      },
+      {
+        "date": "2023-05-25",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18213.599609375
+      },
+      {
+        "date": "2023-05-26",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18393.05078125
+      },
+      {
+        "date": "2023-05-29",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18490.25
+      },
+      {
+        "date": "2023-05-30",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18516.94921875
+      },
+      {
+        "date": "2023-05-31",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18438.30078125
+      },
+      {
+        "date": "2023-06-01",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18405.69921875
+      },
+      {
+        "date": "2023-06-02",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18457.0
+      },
+      {
+        "date": "2023-06-05",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18513.849609375
+      },
+      {
+        "date": "2023-06-06",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18527.849609375
+      },
+      {
+        "date": "2023-06-07",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18659.650390625
+      },
+      {
+        "date": "2023-06-08",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18562.94921875
+      },
+      {
+        "date": "2023-06-09",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18502.099609375
+      },
+      {
+        "date": "2023-06-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18545.80078125
+      },
+      {
+        "date": "2023-06-13",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18668.0
+      },
+      {
+        "date": "2023-06-14",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18705.25
+      },
+      {
+        "date": "2023-06-15",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18653.599609375
+      },
+      {
+        "date": "2023-06-16",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18798.55078125
+      },
+      {
+        "date": "2023-06-19",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18732.80078125
+      },
+      {
+        "date": "2023-06-20",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18794.599609375
+      },
+      {
+        "date": "2023-06-21",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18827.80078125
+      },
+      {
+        "date": "2023-06-22",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18722.69921875
+      },
+      {
+        "date": "2023-06-23",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18595.75
+      },
+      {
+        "date": "2023-06-26",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18632.75
+      },
+      {
+        "date": "2023-06-27",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18751.30078125
+      },
+      {
+        "date": "2023-06-28",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18901.19921875
+      },
+      {
+        "date": "2023-06-30",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19099.55078125
+      },
+      {
+        "date": "2023-07-03",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19223.849609375
+      },
+      {
+        "date": "2023-07-04",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19270.55078125
+      },
+      {
+        "date": "2023-07-05",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19297.94921875
+      },
+      {
+        "date": "2023-07-06",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19397.099609375
+      },
+      {
+        "date": "2023-07-07",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19233.599609375
+      },
+      {
+        "date": "2023-07-10",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19239.80078125
+      },
+      {
+        "date": "2023-07-11",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19333.599609375
+      },
+      {
+        "date": "2023-07-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19293.69921875
+      },
+      {
+        "date": "2023-07-13",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19304.849609375
+      },
+      {
+        "date": "2023-07-14",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19454.0
+      },
+      {
+        "date": "2023-07-17",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19584.80078125
+      },
+      {
+        "date": "2023-07-18",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19605.849609375
+      },
+      {
+        "date": "2023-07-19",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19690.69921875
+      },
+      {
+        "date": "2023-07-20",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19811.900390625
+      },
+      {
+        "date": "2023-07-21",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19602.599609375
+      },
+      {
+        "date": "2023-07-24",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19540.44921875
+      },
+      {
+        "date": "2023-07-25",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19566.900390625
+      },
+      {
+        "date": "2023-07-26",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19662.0
+      },
+      {
+        "date": "2023-07-27",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19566.69921875
+      },
+      {
+        "date": "2023-07-28",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19580.650390625
+      },
+      {
+        "date": "2023-07-31",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19679.349609375
+      },
+      {
+        "date": "2023-08-01",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19659.849609375
+      },
+      {
+        "date": "2023-08-02",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19447.099609375
+      },
+      {
+        "date": "2023-08-03",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19310.900390625
+      },
+      {
+        "date": "2023-08-04",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19448.75
+      },
+      {
+        "date": "2023-08-07",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19521.849609375
+      },
+      {
+        "date": "2023-08-08",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19497.44921875
+      },
+      {
+        "date": "2023-08-09",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19554.75
+      },
+      {
+        "date": "2023-08-10",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19463.099609375
+      },
+      {
+        "date": "2023-08-11",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19359.0
+      },
+      {
+        "date": "2023-08-14",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19330.80078125
+      },
+      {
+        "date": "2023-08-16",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19358.05078125
+      },
+      {
+        "date": "2023-08-17",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19264.599609375
+      },
+      {
+        "date": "2023-08-18",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19209.349609375
+      },
+      {
+        "date": "2023-08-21",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19303.400390625
+      },
+      {
+        "date": "2023-08-22",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19325.44921875
+      },
+      {
+        "date": "2023-08-23",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19362.55078125
+      },
+      {
+        "date": "2023-08-24",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19323.349609375
+      },
+      {
+        "date": "2023-08-25",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19193.900390625
+      },
+      {
+        "date": "2023-08-28",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19243.650390625
+      },
+      {
+        "date": "2023-08-29",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19291.25
+      },
+      {
+        "date": "2023-08-30",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19307.5
+      },
+      {
+        "date": "2023-08-31",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19204.80078125
+      },
+      {
+        "date": "2023-09-01",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19382.94921875
+      },
+      {
+        "date": "2023-09-04",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19485.5
+      },
+      {
+        "date": "2023-09-05",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19531.19921875
+      },
+      {
+        "date": "2023-09-06",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19578.25
+      },
+      {
+        "date": "2023-09-07",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19690.5
+      },
+      {
+        "date": "2023-09-08",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19789.30078125
+      },
+      {
+        "date": "2023-09-11",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19970.80078125
+      },
+      {
+        "date": "2023-09-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19905.19921875
+      },
+      {
+        "date": "2023-09-13",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19977.80078125
+      },
+      {
+        "date": "2023-09-14",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 20024.80078125
+      },
+      {
+        "date": "2023-09-15",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 20108.400390625
+      },
+      {
+        "date": "2023-09-18",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 20056.150390625
+      },
+      {
+        "date": "2023-09-20",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19832.599609375
+      },
+      {
+        "date": "2023-09-21",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19674.80078125
+      },
+      {
+        "date": "2023-09-22",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19614.19921875
+      },
+      {
+        "date": "2023-09-25",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19606.849609375
+      },
+      {
+        "date": "2023-09-26",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19606.05078125
+      },
+      {
+        "date": "2023-09-27",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19654.94921875
+      },
+      {
+        "date": "2023-09-28",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19451.650390625
+      },
+      {
+        "date": "2023-09-29",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19577.05078125
+      },
+      {
+        "date": "2023-10-03",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19492.69921875
+      },
+      {
+        "date": "2023-10-04",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19376.25
+      },
+      {
+        "date": "2023-10-05",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19476.05078125
+      },
+      {
+        "date": "2023-10-06",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19584.44921875
+      },
+      {
+        "date": "2023-10-09",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19428.900390625
+      },
+      {
+        "date": "2023-10-10",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19616.55078125
+      },
+      {
+        "date": "2023-10-11",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19736.80078125
+      },
+      {
+        "date": "2023-10-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19728.099609375
+      },
+      {
+        "date": "2023-10-13",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19691.69921875
+      },
+      {
+        "date": "2023-10-16",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19680.650390625
+      },
+      {
+        "date": "2023-10-17",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19758.900390625
+      },
+      {
+        "date": "2023-10-18",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19611.349609375
+      },
+      {
+        "date": "2023-10-19",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19562.30078125
+      },
+      {
+        "date": "2023-10-20",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19468.400390625
+      },
+      {
+        "date": "2023-10-23",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19189.099609375
+      },
+      {
+        "date": "2023-10-25",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19034.400390625
+      },
+      {
+        "date": "2023-10-26",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18780.599609375
+      },
+      {
+        "date": "2023-10-27",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18996.099609375
+      },
+      {
+        "date": "2023-10-30",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19080.849609375
+      },
+      {
+        "date": "2023-10-31",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19035.349609375
+      },
+      {
+        "date": "2023-11-01",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 18942.30078125
+      },
+      {
+        "date": "2023-11-02",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19107.25
+      },
+      {
+        "date": "2023-11-03",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19222.099609375
+      },
+      {
+        "date": "2023-11-06",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19399.099609375
+      },
+      {
+        "date": "2023-11-07",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19416.80078125
+      },
+      {
+        "date": "2023-11-08",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19470.099609375
+      },
+      {
+        "date": "2023-11-09",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19413.80078125
+      },
+      {
+        "date": "2023-11-10",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19444.80078125
+      },
+      {
+        "date": "2023-11-13",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19475.69921875
+      },
+      {
+        "date": "2023-11-15",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19698.400390625
+      },
+      {
+        "date": "2023-11-16",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19785.849609375
+      },
+      {
+        "date": "2023-11-17",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19773.44921875
+      },
+      {
+        "date": "2023-11-20",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19730.69921875
+      },
+      {
+        "date": "2023-11-21",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19806.400390625
+      },
+      {
+        "date": "2023-11-22",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19818.900390625
+      },
+      {
+        "date": "2023-11-23",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19819.400390625
+      },
+      {
+        "date": "2023-11-24",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19812.099609375
+      },
+      {
+        "date": "2023-11-28",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 19938.400390625
+      },
+      {
+        "date": "2023-11-29",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 20136.19921875
+      },
+      {
+        "date": "2023-11-30",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 20201.0
+      },
+      {
+        "date": "2023-12-01",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 20339.44921875
+      },
+      {
+        "date": "2023-12-04",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 20757.94921875
+      },
+      {
+        "date": "2023-12-05",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 20949.25
+      },
+      {
+        "date": "2023-12-06",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 21074.150390625
+      },
+      {
+        "date": "2023-12-07",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 21076.349609375
+      },
+      {
+        "date": "2023-12-08",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 21107.19921875
+      },
+      {
+        "date": "2023-12-11",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 21161.69921875
+      },
+      {
+        "date": "2023-12-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 21058.25
+      },
+      {
+        "date": "2023-12-13",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 21099.599609375
+      },
+      {
+        "date": "2023-12-14",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 21364.30078125
+      },
+      {
+        "date": "2023-12-15",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 21595.5
+      },
+      {
+        "date": "2023-12-18",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 21585.25
+      },
+      {
+        "date": "2023-12-19",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 21622.94921875
+      },
+      {
+        "date": "2023-12-20",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 21267.349609375
+      },
+      {
+        "date": "2023-12-21",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 21402.150390625
+      },
+      {
+        "date": "2023-12-22",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 21508.849609375
+      },
+      {
+        "date": "2023-12-26",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 21617.05078125
+      },
+      {
+        "date": "2023-12-27",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 21815.44921875
+      },
+      {
+        "date": "2023-12-28",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 21931.75
+      },
+      {
+        "date": "2023-12-29",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 21918.80078125
+      },
+      {
+        "date": "2024-01-02",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 21865.25
+      },
+      {
+        "date": "2024-01-03",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 21771.400390625
+      },
+      {
+        "date": "2024-01-04",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 21934.400390625
+      },
+      {
+        "date": "2024-01-05",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 21974.599609375
+      },
+      {
+        "date": "2024-01-08",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 21770.75
+      },
+      {
+        "date": "2024-01-09",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 21815.150390625
+      },
+      {
+        "date": "2024-01-10",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 21885.80078125
+      },
+      {
+        "date": "2024-01-11",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 21942.150390625
+      },
+      {
+        "date": "2024-01-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22159.25
+      },
+      {
+        "date": "2024-01-15",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22338.75
+      },
+      {
+        "date": "2024-01-16",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22274.599609375
+      },
+      {
+        "date": "2024-01-17",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 21839.94921875
+      },
+      {
+        "date": "2024-01-18",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 21730.099609375
+      },
+      {
+        "date": "2024-01-19",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 21916.0
+      },
+      {
+        "date": "2024-01-23",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 21506.80078125
+      },
+      {
+        "date": "2024-01-24",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 21746.0
+      },
+      {
+        "date": "2024-01-25",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 21666.5
+      },
+      {
+        "date": "2024-01-29",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22041.599609375
+      },
+      {
+        "date": "2024-01-30",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 21846.19921875
+      },
+      {
+        "date": "2024-01-31",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22051.55078125
+      },
+      {
+        "date": "2024-02-01",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22039.599609375
+      },
+      {
+        "date": "2024-02-02",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22199.0
+      },
+      {
+        "date": "2024-02-05",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22113.400390625
+      },
+      {
+        "date": "2024-02-06",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22299.30078125
+      },
+      {
+        "date": "2024-02-07",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22363.69921875
+      },
+      {
+        "date": "2024-02-08",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22202.75
+      },
+      {
+        "date": "2024-02-09",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22247.55078125
+      },
+      {
+        "date": "2024-02-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22042.099609375
+      },
+      {
+        "date": "2024-02-13",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22181.599609375
+      },
+      {
+        "date": "2024-02-14",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22313.400390625
+      },
+      {
+        "date": "2024-02-15",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22405.55078125
+      },
+      {
+        "date": "2024-02-16",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22540.900390625
+      },
+      {
+        "date": "2024-02-20",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22685.650390625
+      },
+      {
+        "date": "2024-02-21",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22547.599609375
+      },
+      {
+        "date": "2024-02-22",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22725.400390625
+      },
+      {
+        "date": "2024-02-23",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22734.30078125
+      },
+      {
+        "date": "2024-02-26",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22667.75
+      },
+      {
+        "date": "2024-02-27",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22722.30078125
+      },
+      {
+        "date": "2024-02-28",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22457.650390625
+      },
+      {
+        "date": "2024-02-29",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22526.30078125
+      },
+      {
+        "date": "2024-03-01",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22862.05078125
+      },
+      {
+        "date": "2024-03-04",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22944.80078125
+      },
+      {
+        "date": "2024-03-05",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22900.650390625
+      },
+      {
+        "date": "2024-03-06",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22988.349609375
+      },
+      {
+        "date": "2024-03-07",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23036.05078125
+      },
+      {
+        "date": "2024-03-11",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22895.44921875
+      },
+      {
+        "date": "2024-03-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22840.900390625
+      },
+      {
+        "date": "2024-03-13",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22399.0
+      },
+      {
+        "date": "2024-03-14",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22623.69921875
+      },
+      {
+        "date": "2024-03-15",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22494.69921875
+      },
+      {
+        "date": "2024-03-18",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22541.150390625
+      },
+      {
+        "date": "2024-03-19",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22274.650390625
+      },
+      {
+        "date": "2024-03-20",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22307.75
+      },
+      {
+        "date": "2024-03-21",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22538.900390625
+      },
+      {
+        "date": "2024-03-22",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22633.80078125
+      },
+      {
+        "date": "2024-03-26",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22601.349609375
+      },
+      {
+        "date": "2024-03-27",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22698.5
+      },
+      {
+        "date": "2024-03-28",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22920.69921875
+      },
+      {
+        "date": "2024-04-01",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23107.150390625
+      },
+      {
+        "date": "2024-04-02",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23138.55078125
+      },
+      {
+        "date": "2024-04-03",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23136.599609375
+      },
+      {
+        "date": "2024-04-04",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23206.0
+      },
+      {
+        "date": "2024-04-05",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23240.55078125
+      },
+      {
+        "date": "2024-04-08",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23380.30078125
+      },
+      {
+        "date": "2024-04-09",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23348.900390625
+      },
+      {
+        "date": "2024-04-10",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23474.69921875
+      },
+      {
+        "date": "2024-04-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23254.900390625
+      },
+      {
+        "date": "2024-04-15",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22967.099609375
+      },
+      {
+        "date": "2024-04-16",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22870.30078125
+      },
+      {
+        "date": "2024-04-18",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22740.19921875
+      },
+      {
+        "date": "2024-04-19",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22859.80078125
+      },
+      {
+        "date": "2024-04-22",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23078.900390625
+      },
+      {
+        "date": "2024-04-23",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23116.0
+      },
+      {
+        "date": "2024-04-24",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23167.80078125
+      },
+      {
+        "date": "2024-04-25",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23329.80078125
+      },
+      {
+        "date": "2024-04-26",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23232.099609375
+      },
+      {
+        "date": "2024-04-29",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23443.80078125
+      },
+      {
+        "date": "2024-04-30",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23436.5
+      },
+      {
+        "date": "2024-05-02",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23541.30078125
+      },
+      {
+        "date": "2024-05-03",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23382.75
+      },
+      {
+        "date": "2024-05-06",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23297.75
+      },
+      {
+        "date": "2024-05-07",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23103.75
+      },
+      {
+        "date": "2024-05-08",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23166.0
+      },
+      {
+        "date": "2024-05-09",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22790.19921875
+      },
+      {
+        "date": "2024-05-10",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22909.099609375
+      },
+      {
+        "date": "2024-05-13",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22956.349609375
+      },
+      {
+        "date": "2024-05-14",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23118.19921875
+      },
+      {
+        "date": "2024-05-15",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23133.849609375
+      },
+      {
+        "date": "2024-05-16",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23343.55078125
+      },
+      {
+        "date": "2024-05-17",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23444.30078125
+      },
+      {
+        "date": "2024-05-21",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23569.900390625
+      },
+      {
+        "date": "2024-05-22",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23633.900390625
+      },
+      {
+        "date": "2024-05-23",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23982.349609375
+      },
+      {
+        "date": "2024-05-24",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23980.099609375
+      },
+      {
+        "date": "2024-05-27",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23959.849609375
+      },
+      {
+        "date": "2024-05-28",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23873.900390625
+      },
+      {
+        "date": "2024-05-29",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23687.69921875
+      },
+      {
+        "date": "2024-05-30",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23466.30078125
+      },
+      {
+        "date": "2024-05-31",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23518.05078125
+      },
+      {
+        "date": "2024-06-03",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24344.19921875
+      },
+      {
+        "date": "2024-06-04",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22739.599609375
+      },
+      {
+        "date": "2024-06-05",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23550.75
+      },
+      {
+        "date": "2024-06-06",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23806.94921875
+      },
+      {
+        "date": "2024-06-07",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24266.05078125
+      },
+      {
+        "date": "2024-06-10",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24271.150390625
+      },
+      {
+        "date": "2024-06-11",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24271.05078125
+      },
+      {
+        "date": "2024-06-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24348.80078125
+      },
+      {
+        "date": "2024-06-13",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24449.5
+      },
+      {
+        "date": "2024-06-14",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24571.650390625
+      },
+      {
+        "date": "2024-06-18",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24683.55078125
+      },
+      {
+        "date": "2024-06-19",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24599.900390625
+      },
+      {
+        "date": "2024-06-20",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24649.849609375
+      },
+      {
+        "date": "2024-06-21",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24555.5
+      },
+      {
+        "date": "2024-06-24",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24621.599609375
+      },
+      {
+        "date": "2024-06-25",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24757.80078125
+      },
+      {
+        "date": "2024-06-26",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24867.150390625
+      },
+      {
+        "date": "2024-06-27",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25026.55078125
+      },
+      {
+        "date": "2024-06-28",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25007.25
+      },
+      {
+        "date": "2024-07-01",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25155.69921875
+      },
+      {
+        "date": "2024-07-02",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25120.099609375
+      },
+      {
+        "date": "2024-07-03",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25306.900390625
+      },
+      {
+        "date": "2024-07-04",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25342.55078125
+      },
+      {
+        "date": "2024-07-05",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25391.25
+      },
+      {
+        "date": "2024-07-08",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25393.55078125
+      },
+      {
+        "date": "2024-07-09",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25515.099609375
+      },
+      {
+        "date": "2024-07-10",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25425.650390625
+      },
+      {
+        "date": "2024-07-11",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25433.75
+      },
+      {
+        "date": "2024-07-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25577.30078125
+      },
+      {
+        "date": "2024-07-15",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25696.05078125
+      },
+      {
+        "date": "2024-07-16",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25679.099609375
+      },
+      {
+        "date": "2024-07-18",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25784.80078125
+      },
+      {
+        "date": "2024-07-19",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25450.849609375
+      },
+      {
+        "date": "2024-07-22",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25490.400390625
+      },
+      {
+        "date": "2024-07-23",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25419.599609375
+      },
+      {
+        "date": "2024-07-24",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25389.0
+      },
+      {
+        "date": "2024-07-25",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25407.5
+      },
+      {
+        "date": "2024-07-26",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25841.900390625
+      },
+      {
+        "date": "2024-07-29",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25901.94921875
+      },
+      {
+        "date": "2024-07-30",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25914.099609375
+      },
+      {
+        "date": "2024-07-31",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26025.599609375
+      },
+      {
+        "date": "2024-08-01",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26057.80078125
+      },
+      {
+        "date": "2024-08-02",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25771.900390625
+      },
+      {
+        "date": "2024-08-05",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25043.05078125
+      },
+      {
+        "date": "2024-08-06",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24940.75
+      },
+      {
+        "date": "2024-08-07",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25349.0
+      },
+      {
+        "date": "2024-08-08",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25161.25
+      },
+      {
+        "date": "2024-08-09",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25425.400390625
+      },
+      {
+        "date": "2024-08-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25386.05078125
+      },
+      {
+        "date": "2024-08-13",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25155.150390625
+      },
+      {
+        "date": "2024-08-14",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25160.650390625
+      },
+      {
+        "date": "2024-08-16",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25578.5
+      },
+      {
+        "date": "2024-08-19",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25638.19921875
+      },
+      {
+        "date": "2024-08-20",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25782.349609375
+      },
+      {
+        "date": "2024-08-21",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25853.19921875
+      },
+      {
+        "date": "2024-08-22",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25910.44921875
+      },
+      {
+        "date": "2024-08-23",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25905.94921875
+      },
+      {
+        "date": "2024-08-26",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26076.80078125
+      },
+      {
+        "date": "2024-08-27",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26083.150390625
+      },
+      {
+        "date": "2024-08-28",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26116.80078125
+      },
+      {
+        "date": "2024-08-29",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26188.900390625
+      },
+      {
+        "date": "2024-08-30",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26274.349609375
+      },
+      {
+        "date": "2024-09-02",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26335.0
+      },
+      {
+        "date": "2024-09-03",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26341.69921875
+      },
+      {
+        "date": "2024-09-04",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26275.75
+      },
+      {
+        "date": "2024-09-05",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26239.099609375
+      },
+      {
+        "date": "2024-09-06",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25928.55078125
+      },
+      {
+        "date": "2024-09-09",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26011.25
+      },
+      {
+        "date": "2024-09-10",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26115.19921875
+      },
+      {
+        "date": "2024-09-11",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25987.80078125
+      },
+      {
+        "date": "2024-09-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26461.099609375
+      },
+      {
+        "date": "2024-09-13",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26419.900390625
+      },
+      {
+        "date": "2024-09-16",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26453.400390625
+      },
+      {
+        "date": "2024-09-17",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26471.30078125
+      },
+      {
+        "date": "2024-09-18",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26420.150390625
+      },
+      {
+        "date": "2024-09-19",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26425.25
+      },
+      {
+        "date": "2024-09-20",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26821.0
+      },
+      {
+        "date": "2024-09-23",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 27024.099609375
+      },
+      {
+        "date": "2024-09-24",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 27027.5
+      },
+      {
+        "date": "2024-09-25",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 27051.650390625
+      },
+      {
+        "date": "2024-09-26",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 27256.25
+      },
+      {
+        "date": "2024-09-27",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 27253.849609375
+      },
+      {
+        "date": "2024-09-30",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26890.150390625
+      },
+      {
+        "date": "2024-10-01",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26885.25
+      },
+      {
+        "date": "2024-10-03",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26305.25
+      },
+      {
+        "date": "2024-10-04",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26056.0
+      },
+      {
+        "date": "2024-10-07",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25749.650390625
+      },
+      {
+        "date": "2024-10-08",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26057.349609375
+      },
+      {
+        "date": "2024-10-09",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26076.599609375
+      },
+      {
+        "date": "2024-10-10",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26079.44921875
+      },
+      {
+        "date": "2024-10-11",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26054.099609375
+      },
+      {
+        "date": "2024-10-14",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26197.900390625
+      },
+      {
+        "date": "2024-10-15",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26149.099609375
+      },
+      {
+        "date": "2024-10-16",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26058.099609375
+      },
+      {
+        "date": "2024-10-17",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25765.349609375
+      },
+      {
+        "date": "2024-10-18",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25853.80078125
+      },
+      {
+        "date": "2024-10-21",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25739.5
+      },
+      {
+        "date": "2024-10-22",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25348.05078125
+      },
+      {
+        "date": "2024-10-23",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25320.650390625
+      },
+      {
+        "date": "2024-10-24",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25275.5
+      },
+      {
+        "date": "2024-10-25",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25022.19921875
+      },
+      {
+        "date": "2024-10-28",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25175.19921875
+      },
+      {
+        "date": "2024-10-29",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25321.30078125
+      },
+      {
+        "date": "2024-10-30",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25195.05078125
+      },
+      {
+        "date": "2024-10-31",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25059.5
+      },
+      {
+        "date": "2024-11-01",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25184.599609375
+      },
+      {
+        "date": "2024-11-04",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24857.75
+      },
+      {
+        "date": "2024-11-05",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25060.80078125
+      },
+      {
+        "date": "2024-11-06",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25403.150390625
+      },
+      {
+        "date": "2024-11-07",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25110.69921875
+      },
+      {
+        "date": "2024-11-08",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25002.94921875
+      },
+      {
+        "date": "2024-11-11",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25013.30078125
+      },
+      {
+        "date": "2024-11-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24715.55078125
+      },
+      {
+        "date": "2024-11-13",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24347.0
+      },
+      {
+        "date": "2024-11-14",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24366.05078125
+      },
+      {
+        "date": "2024-11-18",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24301.0
+      },
+      {
+        "date": "2024-11-19",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24374.69921875
+      },
+      {
+        "date": "2024-11-21",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24135.099609375
+      },
+      {
+        "date": "2024-11-22",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24655.349609375
+      },
+      {
+        "date": "2024-11-25",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24993.650390625
+      },
+      {
+        "date": "2024-11-26",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24983.099609375
+      },
+      {
+        "date": "2024-11-27",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25115.150390625
+      },
+      {
+        "date": "2024-11-28",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24836.25
+      },
+      {
+        "date": "2024-11-29",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25053.94921875
+      },
+      {
+        "date": "2024-12-02",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25198.150390625
+      },
+      {
+        "date": "2024-12-03",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25393.25
+      },
+      {
+        "date": "2024-12-04",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25428.400390625
+      },
+      {
+        "date": "2024-12-05",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25657.849609375
+      },
+      {
+        "date": "2024-12-06",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25663.900390625
+      },
+      {
+        "date": "2024-12-09",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25594.19921875
+      },
+      {
+        "date": "2024-12-10",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25600.19921875
+      },
+      {
+        "date": "2024-12-11",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25635.05078125
+      },
+      {
+        "date": "2024-12-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25546.400390625
+      },
+      {
+        "date": "2024-12-13",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25724.599609375
+      },
+      {
+        "date": "2024-12-16",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25652.849609375
+      },
+      {
+        "date": "2024-12-17",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25321.650390625
+      },
+      {
+        "date": "2024-12-18",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25137.599609375
+      },
+      {
+        "date": "2024-12-19",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24884.94921875
+      },
+      {
+        "date": "2024-12-20",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24448.849609375
+      },
+      {
+        "date": "2024-12-23",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24599.75
+      },
+      {
+        "date": "2024-12-24",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24572.5
+      },
+      {
+        "date": "2024-12-26",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24611.349609375
+      },
+      {
+        "date": "2024-12-27",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24632.0
+      },
+      {
+        "date": "2024-12-30",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24500.75
+      },
+      {
+        "date": "2024-12-31",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24495.55078125
+      },
+      {
+        "date": "2025-01-02",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25028.80078125
+      },
+      {
+        "date": "2025-01-03",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24879.849609375
+      },
+      {
+        "date": "2025-01-06",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24404.599609375
+      },
+      {
+        "date": "2025-01-07",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24478.099609375
+      },
+      {
+        "date": "2025-01-08",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24426.0
+      },
+      {
+        "date": "2025-01-09",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24232.30078125
+      },
+      {
+        "date": "2025-01-10",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24064.75
+      },
+      {
+        "date": "2025-01-13",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23586.80078125
+      },
+      {
+        "date": "2025-01-14",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23770.599609375
+      },
+      {
+        "date": "2025-01-15",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23839.25
+      },
+      {
+        "date": "2025-01-16",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23984.55078125
+      },
+      {
+        "date": "2025-01-17",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23926.0
+      },
+      {
+        "date": "2025-01-20",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24048.80078125
+      },
+      {
+        "date": "2025-01-21",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23664.75
+      },
+      {
+        "date": "2025-01-22",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23738.400390625
+      },
+      {
+        "date": "2025-01-23",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23823.25
+      },
+      {
+        "date": "2025-01-24",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23660.19921875
+      },
+      {
+        "date": "2025-01-27",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23319.94921875
+      },
+      {
+        "date": "2025-01-28",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23440.05078125
+      },
+      {
+        "date": "2025-01-29",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23696.25
+      },
+      {
+        "date": "2025-01-30",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23772.5
+      },
+      {
+        "date": "2025-01-31",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24053.44921875
+      },
+      {
+        "date": "2025-02-03",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23896.150390625
+      },
+      {
+        "date": "2025-02-04",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24279.650390625
+      },
+      {
+        "date": "2025-02-05",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24271.349609375
+      },
+      {
+        "date": "2025-02-06",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24161.0
+      },
+      {
+        "date": "2025-02-07",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24125.5
+      },
+      {
+        "date": "2025-02-10",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23897.0
+      },
+      {
+        "date": "2025-02-11",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23530.80078125
+      },
+      {
+        "date": "2025-02-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23508.349609375
+      },
+      {
+        "date": "2025-02-13",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23504.849609375
+      },
+      {
+        "date": "2025-02-14",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23325.150390625
+      },
+      {
+        "date": "2025-02-17",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23343.150390625
+      },
+      {
+        "date": "2025-02-18",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23331.400390625
+      },
+      {
+        "date": "2025-02-19",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23368.55078125
+      },
+      {
+        "date": "2025-02-20",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23411.400390625
+      },
+      {
+        "date": "2025-02-21",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23274.05078125
+      },
+      {
+        "date": "2025-02-24",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23021.69921875
+      },
+      {
+        "date": "2025-02-25",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22987.150390625
+      },
+      {
+        "date": "2025-02-27",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22948.30078125
+      },
+      {
+        "date": "2025-02-28",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22479.44921875
+      },
+      {
+        "date": "2025-03-03",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22514.19921875
+      },
+      {
+        "date": "2025-03-04",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22504.900390625
+      },
+      {
+        "date": "2025-03-05",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22818.80078125
+      },
+      {
+        "date": "2025-03-06",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23038.80078125
+      },
+      {
+        "date": "2025-03-07",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23027.69921875
+      },
+      {
+        "date": "2025-03-10",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22890.75
+      },
+      {
+        "date": "2025-03-11",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22942.69921875
+      },
+      {
+        "date": "2025-03-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22919.900390625
+      },
+      {
+        "date": "2025-03-13",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22837.849609375
+      },
+      {
+        "date": "2025-03-17",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22960.80078125
+      },
+      {
+        "date": "2025-03-18",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23340.400390625
+      },
+      {
+        "date": "2025-03-19",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23468.349609375
+      },
+      {
+        "date": "2025-03-20",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23730.69921875
+      },
+      {
+        "date": "2025-03-21",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23902.099609375
+      },
+      {
+        "date": "2025-03-24",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24214.19921875
+      },
+      {
+        "date": "2025-03-25",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24159.900390625
+      },
+      {
+        "date": "2025-03-26",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23990.400390625
+      },
+      {
+        "date": "2025-03-27",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24145.05078125
+      },
+      {
+        "date": "2025-03-28",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24057.349609375
+      },
+      {
+        "date": "2025-04-01",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23713.80078125
+      },
+      {
+        "date": "2025-04-02",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23901.849609375
+      },
+      {
+        "date": "2025-04-03",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23833.30078125
+      },
+      {
+        "date": "2025-04-04",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23433.25
+      },
+      {
+        "date": "2025-04-07",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22677.900390625
+      },
+      {
+        "date": "2025-04-08",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23077.650390625
+      },
+      {
+        "date": "2025-04-09",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22952.44921875
+      },
+      {
+        "date": "2025-04-11",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23369.25
+      },
+      {
+        "date": "2025-04-15",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23917.400390625
+      },
+      {
+        "date": "2025-04-16",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24037.25
+      },
+      {
+        "date": "2025-04-17",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24418.349609375
+      },
+      {
+        "date": "2025-04-21",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24725.80078125
+      },
+      {
+        "date": "2025-04-22",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24770.44921875
+      },
+      {
+        "date": "2025-04-23",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24937.0
+      },
+      {
+        "date": "2025-04-24",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24860.900390625
+      },
+      {
+        "date": "2025-04-25",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24581.30078125
+      },
+      {
+        "date": "2025-04-28",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24874.0
+      },
+      {
+        "date": "2025-04-29",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24870.400390625
+      },
+      {
+        "date": "2025-04-30",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24843.80078125
+      },
+      {
+        "date": "2025-05-02",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24849.19921875
+      },
+      {
+        "date": "2025-05-05",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25010.19921875
+      },
+      {
+        "date": "2025-05-06",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24837.44921875
+      },
+      {
+        "date": "2025-05-07",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24887.19921875
+      },
+      {
+        "date": "2025-05-08",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24678.0
+      },
+      {
+        "date": "2025-05-09",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24437.55078125
+      },
+      {
+        "date": "2025-05-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25381.400390625
+      },
+      {
+        "date": "2025-05-13",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25087.099609375
+      },
+      {
+        "date": "2025-05-14",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25193.30078125
+      },
+      {
+        "date": "2025-05-15",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25573.05078125
+      },
+      {
+        "date": "2025-05-16",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25593.099609375
+      },
+      {
+        "date": "2025-05-19",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25551.5
+      },
+      {
+        "date": "2025-05-20",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25248.650390625
+      },
+      {
+        "date": "2025-05-21",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25409.099609375
+      },
+      {
+        "date": "2025-05-22",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25221.900390625
+      },
+      {
+        "date": "2025-05-23",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25453.0
+      },
+      {
+        "date": "2025-05-26",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25596.5
+      },
+      {
+        "date": "2025-05-27",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25436.349609375
+      },
+      {
+        "date": "2025-05-28",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25361.099609375
+      },
+      {
+        "date": "2025-05-29",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25436.30078125
+      },
+      {
+        "date": "2025-05-30",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25344.25
+      },
+      {
+        "date": "2025-06-02",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25333.650390625
+      },
+      {
+        "date": "2025-06-03",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25162.05078125
+      },
+      {
+        "date": "2025-06-04",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25240.650390625
+      },
+      {
+        "date": "2025-06-05",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25369.75
+      },
+      {
+        "date": "2025-06-06",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25638.80078125
+      },
+      {
+        "date": "2025-06-09",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25779.44921875
+      },
+      {
+        "date": "2025-06-10",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25785.5
+      },
+      {
+        "date": "2025-06-11",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25807.099609375
+      },
+      {
+        "date": "2025-06-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25511.55078125
+      },
+      {
+        "date": "2025-06-13",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25331.349609375
+      },
+      {
+        "date": "2025-06-16",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25556.75
+      },
+      {
+        "date": "2025-06-17",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25446.69921875
+      },
+      {
+        "date": "2025-06-18",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25398.05078125
+      },
+      {
+        "date": "2025-06-19",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25320.44921875
+      },
+      {
+        "date": "2025-06-20",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25648.80078125
+      },
+      {
+        "date": "2025-06-23",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25532.94921875
+      },
+      {
+        "date": "2025-06-24",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25631.599609375
+      },
+      {
+        "date": "2025-06-25",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25822.349609375
+      },
+      {
+        "date": "2025-06-26",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26121.099609375
+      },
+      {
+        "date": "2025-06-27",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26223.599609375
+      },
+      {
+        "date": "2025-06-30",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26139.5
+      },
+      {
+        "date": "2025-07-01",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26156.099609375
+      },
+      {
+        "date": "2025-07-02",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26068.05078125
+      },
+      {
+        "date": "2025-07-03",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26003.0
+      },
+      {
+        "date": "2025-07-04",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26066.650390625
+      },
+      {
+        "date": "2025-07-07",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26074.55078125
+      },
+      {
+        "date": "2025-07-08",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26126.05078125
+      },
+      {
+        "date": "2025-07-09",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26084.0
+      },
+      {
+        "date": "2025-07-10",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25971.349609375
+      },
+      {
+        "date": "2025-07-11",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25760.80078125
+      },
+      {
+        "date": "2025-07-14",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25724.150390625
+      },
+      {
+        "date": "2025-07-15",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25849.150390625
+      },
+      {
+        "date": "2025-07-16",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25872.19921875
+      },
+      {
+        "date": "2025-07-17",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25776.44921875
+      },
+      {
+        "date": "2025-07-18",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25623.5
+      },
+      {
+        "date": "2025-07-21",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25745.349609375
+      },
+      {
+        "date": "2025-07-22",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25703.900390625
+      },
+      {
+        "date": "2025-07-23",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25846.0
+      },
+      {
+        "date": "2025-07-24",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25701.900390625
+      },
+      {
+        "date": "2025-07-25",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25442.099609375
+      },
+      {
+        "date": "2025-07-28",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25285.0
+      },
+      {
+        "date": "2025-07-29",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25443.650390625
+      },
+      {
+        "date": "2025-07-30",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25476.05078125
+      },
+      {
+        "date": "2025-07-31",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25380.5
+      },
+      {
+        "date": "2025-08-01",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25149.599609375
+      },
+      {
+        "date": "2025-08-04",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25330.19921875
+      },
+      {
+        "date": "2025-08-05",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25257.94921875
+      },
+      {
+        "date": "2025-08-06",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25156.349609375
+      },
+      {
+        "date": "2025-08-07",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25185.150390625
+      },
+      {
+        "date": "2025-08-08",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24934.05078125
+      },
+      {
+        "date": "2025-08-11",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25172.19921875
+      },
+      {
+        "date": "2025-08-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25085.400390625
+      },
+      {
+        "date": "2025-08-13",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25223.25
+      },
+      {
+        "date": "2025-08-14",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25226.25
+      },
+      {
+        "date": "2025-08-18",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25492.349609375
+      },
+      {
+        "date": "2025-08-19",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25613.30078125
+      },
+      {
+        "date": "2025-08-20",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25689.30078125
+      },
+      {
+        "date": "2025-08-21",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25705.099609375
+      },
+      {
+        "date": "2025-08-22",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25495.599609375
+      },
+      {
+        "date": "2025-08-25",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25589.69921875
+      },
+      {
+        "date": "2025-08-26",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25313.5
+      },
+      {
+        "date": "2025-08-28",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25078.5
+      },
+      {
+        "date": "2025-08-29",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25003.05078125
+      },
+      {
+        "date": "2025-09-01",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25231.19921875
+      },
+      {
+        "date": "2025-09-02",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25215.05078125
+      },
+      {
+        "date": "2025-09-03",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25358.900390625
+      },
+      {
+        "date": "2025-09-04",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25355.150390625
+      },
+      {
+        "date": "2025-09-05",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25356.849609375
+      },
+      {
+        "date": "2025-09-08",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25402.0
+      },
+      {
+        "date": "2025-09-09",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25489.19921875
+      },
+      {
+        "date": "2025-09-10",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25596.94921875
+      },
+      {
+        "date": "2025-09-11",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25638.75
+      },
+      {
+        "date": "2025-09-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25745.099609375
+      },
+      {
+        "date": "2025-09-15",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25733.55078125
+      },
+      {
+        "date": "2025-09-16",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25903.55078125
+      },
+      {
+        "date": "2025-09-17",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25990.44921875
+      },
+      {
+        "date": "2025-09-18",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26081.849609375
+      },
+      {
+        "date": "2025-09-19",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26025.849609375
+      },
+      {
+        "date": "2025-09-22",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25934.5
+      },
+      {
+        "date": "2025-09-23",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25886.0
+      },
+      {
+        "date": "2025-09-24",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25736.349609375
+      },
+      {
+        "date": "2025-09-25",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25562.0
+      },
+      {
+        "date": "2025-09-26",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25287.099609375
+      },
+      {
+        "date": "2025-09-29",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25314.849609375
+      },
+      {
+        "date": "2025-09-30",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25295.150390625
+      },
+      {
+        "date": "2025-10-01",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25502.94921875
+      },
+      {
+        "date": "2025-10-03",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25569.30078125
+      },
+      {
+        "date": "2025-10-06",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25740.94921875
+      },
+      {
+        "date": "2025-10-07",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25772.25
+      },
+      {
+        "date": "2025-10-08",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25685.900390625
+      },
+      {
+        "date": "2025-10-09",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25825.69921875
+      },
+      {
+        "date": "2025-10-10",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25924.75
+      },
+      {
+        "date": "2025-10-13",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25867.75
+      },
+      {
+        "date": "2025-10-14",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25775.150390625
+      },
+      {
+        "date": "2025-10-15",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25984.05078125
+      },
+      {
+        "date": "2025-10-16",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26229.19921875
+      },
+      {
+        "date": "2025-10-17",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26329.80078125
+      },
+      {
+        "date": "2025-10-20",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26449.75
+      },
+      {
+        "date": "2025-10-21",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26475.849609375
+      },
+      {
+        "date": "2025-10-23",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26490.05078125
+      },
+      {
+        "date": "2025-10-24",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26402.80078125
+      },
+      {
+        "date": "2025-10-27",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26565.0
+      },
+      {
+        "date": "2025-10-28",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26517.44921875
+      },
+      {
+        "date": "2025-10-29",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26679.25
+      },
+      {
+        "date": "2025-10-30",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26518.849609375
+      },
+      {
+        "date": "2025-10-31",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26369.5
+      },
+      {
+        "date": "2025-11-03",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26445.849609375
+      },
+      {
+        "date": "2025-11-04",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26284.44921875
+      },
+      {
+        "date": "2025-11-06",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26154.94921875
+      },
+      {
+        "date": "2025-11-07",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26144.19921875
+      },
+      {
+        "date": "2025-11-10",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26230.80078125
+      },
+      {
+        "date": "2025-11-11",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26340.0
+      },
+      {
+        "date": "2025-11-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26500.0
+      },
+      {
+        "date": "2025-11-13",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26505.599609375
+      },
+      {
+        "date": "2025-11-14",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26528.0
+      },
+      {
+        "date": "2025-11-17",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26639.400390625
+      },
+      {
+        "date": "2025-11-18",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26519.0
+      },
+      {
+        "date": "2025-11-19",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26640.5
+      },
+      {
+        "date": "2025-11-20",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26755.5
+      },
+      {
+        "date": "2025-11-21",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26593.19921875
+      },
+      {
+        "date": "2025-11-24",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26458.25
+      },
+      {
+        "date": "2025-11-25",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26405.30078125
+      },
+      {
+        "date": "2025-11-26",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26743.05078125
+      },
+      {
+        "date": "2025-11-27",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26744.349609375
+      },
+      {
+        "date": "2025-11-28",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26737.80078125
+      },
+      {
+        "date": "2025-12-01",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26719.75
+      },
+      {
+        "date": "2025-12-02",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26592.849609375
+      },
+      {
+        "date": "2025-12-03",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26506.099609375
+      },
+      {
+        "date": "2025-12-04",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26557.0
+      },
+      {
+        "date": "2025-12-05",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26696.900390625
+      },
+      {
+        "date": "2025-12-08",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26415.55078125
+      },
+      {
+        "date": "2025-12-09",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26337.349609375
+      },
+      {
+        "date": "2025-12-10",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26259.25
+      },
+      {
+        "date": "2025-12-11",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26402.44921875
+      },
+      {
+        "date": "2025-12-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26565.099609375
+      },
+      {
+        "date": "2025-12-15",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26555.349609375
+      },
+      {
+        "date": "2025-12-16",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26394.5
+      },
+      {
+        "date": "2025-12-17",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26342.650390625
+      },
+      {
+        "date": "2025-12-18",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26324.650390625
+      },
+      {
+        "date": "2025-12-19",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26488.0
+      },
+      {
+        "date": "2025-12-22",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26693.19921875
+      },
+      {
+        "date": "2025-12-23",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26713.150390625
+      },
+      {
+        "date": "2025-12-24",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26674.5
+      },
+      {
+        "date": "2025-12-26",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26589.349609375
+      },
+      {
+        "date": "2025-12-29",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26483.44921875
+      },
+      {
+        "date": "2025-12-30",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26482.55078125
+      },
+      {
+        "date": "2025-12-31",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26689.30078125
+      },
+      {
+        "date": "2026-01-02",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26925.30078125
+      },
+      {
+        "date": "2026-01-05",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26858.150390625
+      },
+      {
+        "date": "2026-01-06",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26808.75
+      },
+      {
+        "date": "2026-01-07",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26781.80078125
+      },
+      {
+        "date": "2026-01-08",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26462.599609375
+      },
+      {
+        "date": "2026-01-09",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26252.94921875
+      },
+      {
+        "date": "2026-01-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26357.400390625
+      },
+      {
+        "date": "2026-01-13",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26296.75
+      },
+      {
+        "date": "2026-01-14",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26256.30078125
+      },
+      {
+        "date": "2026-01-16",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26285.30078125
+      },
+      {
+        "date": "2026-01-19",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26181.94921875
+      },
+      {
+        "date": "2026-01-20",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25780.94921875
+      },
+      {
+        "date": "2026-01-21",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25701.400390625
+      },
+      {
+        "date": "2026-01-22",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25860.25
+      },
+      {
+        "date": "2026-01-23",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25570.5
+      },
+      {
+        "date": "2026-01-27",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25706.150390625
+      },
+      {
+        "date": "2026-01-28",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25943.80078125
+      },
+      {
+        "date": "2026-01-29",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26021.69921875
+      },
+      {
+        "date": "2026-01-30",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25902.0
+      },
+      {
+        "date": "2026-02-02",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25655.349609375
+      },
+      {
+        "date": "2026-02-03",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26313.19921875
+      },
+      {
+        "date": "2026-02-04",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26382.69921875
+      },
+      {
+        "date": "2026-02-05",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26248.30078125
+      },
+      {
+        "date": "2026-02-06",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26297.30078125
+      },
+      {
+        "date": "2026-02-09",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26487.80078125
+      },
+      {
+        "date": "2026-02-10",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26552.099609375
+      },
+      {
+        "date": "2026-02-11",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26592.30078125
+      },
+      {
+        "date": "2026-02-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26448.05078125
+      },
+      {
+        "date": "2026-02-13",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26092.400390625
+      },
+      {
+        "date": "2026-02-16",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26315.349609375
+      },
+      {
+        "date": "2026-02-17",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26375.099609375
+      },
+      {
+        "date": "2026-02-18",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26484.599609375
+      },
+      {
+        "date": "2026-02-19",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26090.69921875
+      },
+      {
+        "date": "2026-02-20",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26217.30078125
+      },
+      {
+        "date": "2026-02-23",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26355.400390625
+      },
+      {
+        "date": "2026-02-24",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26112.19921875
+      },
+      {
+        "date": "2026-02-25",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26200.5
+      },
+      {
+        "date": "2026-02-26",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 26226.849609375
+      },
+      {
+        "date": "2026-02-27",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25897.55078125
+      },
+      {
+        "date": "2026-03-02",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25563.5
+      },
+      {
+        "date": "2026-03-04",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25118.25
+      },
+      {
+        "date": "2026-03-05",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25420.099609375
+      },
+      {
+        "date": "2026-03-06",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25134.900390625
+      },
+      {
+        "date": "2026-03-09",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24685.650390625
+      },
+      {
+        "date": "2026-03-10",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24957.80078125
+      },
+      {
+        "date": "2026-03-11",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24574.55078125
+      },
+      {
+        "date": "2026-03-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24375.099609375
+      },
+      {
+        "date": "2026-03-13",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23849.25
+      },
+      {
+        "date": "2026-03-16",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24055.400390625
+      },
+      {
+        "date": "2026-03-17",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24237.80078125
+      },
+      {
+        "date": "2026-03-18",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24446.44921875
+      },
+      {
+        "date": "2026-03-19",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23651.94921875
+      },
+      {
+        "date": "2026-03-20",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23766.099609375
+      },
+      {
+        "date": "2026-03-23",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23098.25
+      },
+      {
+        "date": "2026-03-24",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23499.30078125
+      },
+      {
+        "date": "2026-03-25",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23915.150390625
+      },
+      {
+        "date": "2026-03-27",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23400.05078125
+      },
+      {
+        "date": "2026-03-30",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 22875.5
+      },
+      {
+        "date": "2026-04-01",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23272.75
+      },
+      {
+        "date": "2026-04-02",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23304.19921875
+      },
+      {
+        "date": "2026-04-06",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23579.44921875
+      },
+      {
+        "date": "2026-04-07",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 23730.25
+      },
+      {
+        "date": "2026-04-08",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24666.69921875
+      },
+      {
+        "date": "2026-04-09",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24486.5
+      },
+      {
+        "date": "2026-04-10",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24809.80078125
+      },
+      {
+        "date": "2026-04-13",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24599.650390625
+      },
+      {
+        "date": "2026-04-15",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25023.69921875
+      },
+      {
+        "date": "2026-04-16",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25042.30078125
+      },
+      {
+        "date": "2026-04-17",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25238.900390625
+      },
+      {
+        "date": "2026-04-20",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25252.900390625
+      },
+      {
+        "date": "2026-04-21",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25464.0
+      },
+      {
+        "date": "2026-04-22",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25329.94921875
+      },
+      {
+        "date": "2026-04-23",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25094.94921875
+      },
+      {
+        "date": "2026-04-24",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24827.30078125
+      },
+      {
+        "date": "2026-04-27",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25052.25
+      },
+      {
+        "date": "2026-04-28",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24955.0
+      },
+      {
+        "date": "2026-04-29",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25106.099609375
+      },
+      {
+        "date": "2026-04-30",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24896.0
+      },
+      {
+        "date": "2026-05-04",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25041.099609375
+      },
+      {
+        "date": "2026-05-05",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24990.30078125
+      },
+      {
+        "date": "2026-05-06",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25312.599609375
+      },
+      {
+        "date": "2026-05-07",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25319.5
+      },
+      {
+        "date": "2026-05-08",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25168.599609375
+      },
+      {
+        "date": "2026-05-11",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24784.80078125
+      },
+      {
+        "date": "2026-05-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24303.05078125
+      },
+      {
+        "date": "2026-05-13",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24369.05078125
+      },
+      {
+        "date": "2026-05-14",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24654.400390625
+      },
+      {
+        "date": "2026-05-15",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24572.150390625
+      },
+      {
+        "date": "2026-05-18",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24534.25
+      },
+      {
+        "date": "2026-05-19",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24531.69921875
+      },
+      {
+        "date": "2026-05-20",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24590.599609375
+      },
+      {
+        "date": "2026-05-21",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24596.400390625
+      },
+      {
+        "date": "2026-05-22",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24669.30078125
+      },
+      {
+        "date": "2026-05-25",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25001.69921875
+      },
+      {
+        "date": "2026-05-26",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24910.099609375
+      },
+      {
+        "date": "2026-05-27",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24970.849609375
+      },
+      {
+        "date": "2026-05-29",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24608.44921875
+      },
+      {
+        "date": "2026-06-01",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24393.05078125
+      },
+      {
+        "date": "2026-06-02",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24491.30078125
+      },
+      {
+        "date": "2026-06-03",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24408.30078125
+      },
+      {
+        "date": "2026-06-04",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24427.69921875
+      },
+      {
+        "date": "2026-06-05",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24397.30078125
+      },
+      {
+        "date": "2026-06-08",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24111.099609375
+      },
+      {
+        "date": "2026-06-09",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24275.599609375
+      },
+      {
+        "date": "2026-06-10",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24200.75
+      },
+      {
+        "date": "2026-06-11",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24104.69921875
+      },
+      {
+        "date": "2026-06-12",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24602.25
+      },
+      {
+        "date": "2026-06-15",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24907.849609375
+      },
+      {
+        "date": "2026-06-16",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25029.900390625
+      },
+      {
+        "date": "2026-06-17",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25141.80078125
+      },
+      {
+        "date": "2026-06-18",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25233.650390625
+      },
+      {
+        "date": "2026-06-19",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25086.650390625
+      },
+      {
+        "date": "2026-06-22",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25209.55078125
+      },
+      {
+        "date": "2026-06-23",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24907.80078125
+      },
+      {
+        "date": "2026-06-24",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25075.94921875
+      },
+      {
+        "date": "2026-06-25",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25114.099609375
+      },
+      {
+        "date": "2026-06-29",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24976.69921875
+      },
+      {
+        "date": "2026-06-30",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 24915.599609375
+      },
+      {
+        "date": "2026-07-01",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25065.099609375
+      },
+      {
+        "date": "2026-07-02",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25230.19921875
+      },
+      {
+        "date": "2026-07-03",
+        "benchmark_label": "NIFTY100_TRI",
+        "tri_value": 25301.900390625
+      }
+    ],
+    "source": "YFINANCE",
+    "source_quality": "PRICE_INDEX_PROXY_NOT_TRI"
+  }
+}

@@ -13,7 +13,8 @@ never call this pipeline on page load — it only reads processed CSVs from
 02_processed_data/.
 
 Current stage (Phase 2 API fetch + Phase 3 validation + Phase 4 returns +
-Phase 5 metrics/rolling metrics + Phase 7 stress/attribution):
+Phase 5 metrics/rolling metrics + Phase 6 benchmark analytics + Phase 7
+stress/attribution):
     1. fetch_all_mutual_funds()   -> 02_processed_data/nav_daily_clean.csv
     2. fetch_all_benchmarks()     -> 02_processed_data/benchmark_daily.csv
     3. run_data_validation()      -> 02_processed_data/data_quality_report.csv
@@ -23,11 +24,13 @@ Phase 5 metrics/rolling metrics + Phase 7 stress/attribution):
                                       02_processed_data/benchmark_monthly.csv
     5. run_metrics_engine()       -> 02_processed_data/metrics_summary.csv
     6. run_rolling_metrics_engine() -> 02_processed_data/rolling_metrics.csv
-    7. run_stress_engine()        -> 02_processed_data/stress_results.csv
-    8. run_attribution_engine()   -> 02_processed_data/attribution_results.csv
+    7. run_benchmarks_engine()    -> 02_processed_data/benchmark_metrics.csv
+                                      02_processed_data/rolling_benchmark_metrics.csv
+    8. run_stress_engine()        -> 02_processed_data/stress_results.csv
+    9. run_attribution_engine()   -> 02_processed_data/attribution_results.csv
 
-Later phases (benchmark analytics, suitability, Excel export) will be
-appended to this script incrementally as each module is implemented — see
+Later phases (suitability wiring, Excel export) will be appended to this
+script incrementally as each module is implemented — see
 00_project_control/implementation_plan.md for the full sequence.
 """
 
@@ -64,6 +67,11 @@ from rolling_metrics import (  # noqa: E402 - sys.path must be configured before
     ROLLING_METRICS_PATH,
     run_rolling_metrics_engine,
 )
+from benchmarks import (  # noqa: E402 - sys.path must be configured before this import
+    BENCHMARK_METRICS_PATH,
+    ROLLING_BENCHMARK_METRICS_PATH,
+    run_benchmarks_engine,
+)
 from stress import (  # noqa: E402 - sys.path must be configured before this import
     STRESS_RESULTS_PATH,
     run_stress_engine,
@@ -83,7 +91,7 @@ def _print_header(title: str) -> None:
 
 def refresh_mutual_funds() -> bool:
     """Step 1: fetch all included funds' NAV history and write nav_daily_clean.csv."""
-    _print_header("STEP 1/8 - Fetching mutual fund NAV data (MFAPI)")
+    _print_header("STEP 1/9 - Fetching mutual fund NAV data (MFAPI)")
     try:
         nav_df = fetch_all_mutual_funds()
     except PermissionError as exc:
@@ -106,7 +114,7 @@ def refresh_mutual_funds() -> bool:
 
 def refresh_benchmarks() -> bool:
     """Step 2: fetch all required benchmarks, build HYBRID_65_35, write benchmark_daily.csv."""
-    _print_header("STEP 2/8 - Fetching benchmark/index data")
+    _print_header("STEP 2/9 - Fetching benchmark/index data")
     try:
         # Explicitly opt in to yfinance price-index proxy fallback in the
         # refresh pipeline when TRI endpoints are unavailable.
@@ -143,13 +151,15 @@ def refresh_benchmarks() -> bool:
 
 def refresh_data_validation() -> bool:
     """
-    Step 3: validate nav_daily_clean.csv and benchmark_daily.csv and write
-    data_quality_report.csv (see data_cleaning.py, Phase 3). Runs against
-    whatever processed files are currently on disk, so it still reports
-    accurately even if a fetch step above failed but earlier cached output
-    files remain in place.
+    Step 3: validate nav_daily_clean.csv and benchmark_daily.csv, write
+    data_quality_report.csv from the raw pre-clean data, then overwrite
+    both nav_daily_clean.csv and benchmark_daily.csv in place with the
+    validated/deduplicated/2021-01-01+-filtered result (see
+    data_cleaning.py, Phase 3). Runs against whatever processed files are
+    currently on disk, so it still reports accurately even if a fetch step
+    above failed but earlier cached output files remain in place.
     """
-    _print_header("STEP 3/8 - Validating processed data and writing data_quality_report.csv")
+    _print_header("STEP 3/9 - Validating processed data and writing data_quality_report.csv")
     try:
         results = run_data_validation()
     except Exception as exc:  # noqa: BLE001 - top-level orchestrator must report, not crash silently
@@ -160,6 +170,10 @@ def refresh_data_validation() -> bool:
     status_counts = report["status"].value_counts().to_dict()
     print(f"[SUCCESS] Wrote {DATA_QUALITY_REPORT_PATH}")
     print(f"          {len(report)} fund(s)/benchmark(s) assessed. status breakdown: {status_counts}")
+    print(
+        f"          Overwrote nav_daily_clean.csv ({len(results['nav_daily_clean'])} rows) and "
+        f"benchmark_daily.csv ({len(results['benchmark_daily'])} rows) with the validated/cleaned result."
+    )
 
     fail_rows = report[report["status"] == "FAIL"]
     if not fail_rows.empty:
@@ -184,7 +198,7 @@ def refresh_returns() -> bool:
     since it reuses data_cleaning's validated/deduplicated/date-filtered
     NAV and benchmark data as its input.
     """
-    _print_header("STEP 4/8 - Calculating returns (daily + monthly, fund + benchmark)")
+    _print_header("STEP 4/9 - Calculating returns (daily + monthly, fund + benchmark)")
     try:
         results = run_return_engine()
     except Exception as exc:  # noqa: BLE001 - top-level orchestrator must report, not crash silently
@@ -210,7 +224,7 @@ def refresh_metrics() -> bool:
     metrics_summary.csv. Only runs after the return engine has succeeded,
     since it reuses returns_daily.csv / returns_monthly.csv as input.
     """
-    _print_header("STEP 5/8 - Calculating fund-level metrics (CAGR, volatility, Sharpe, drawdown, VaR/CVaR, ...)")
+    _print_header("STEP 5/9 - Calculating fund-level metrics (CAGR, volatility, Sharpe, drawdown, VaR/CVaR, ...)")
     try:
         summary = run_metrics_engine()
     except Exception as exc:  # noqa: BLE001 - top-level orchestrator must report, not crash silently
@@ -228,7 +242,7 @@ def refresh_rolling_metrics() -> bool:
     engine has succeeded, since it reuses returns_daily.csv /
     returns_monthly.csv as input.
     """
-    _print_header("STEP 6/8 - Calculating rolling metrics (rolling returns, volatility, Sharpe)")
+    _print_header("STEP 6/9 - Calculating rolling metrics (rolling returns, volatility, Sharpe)")
     try:
         rolling = run_rolling_metrics_engine()
     except Exception as exc:  # noqa: BLE001 - top-level orchestrator must report, not crash silently
@@ -240,14 +254,37 @@ def refresh_rolling_metrics() -> bool:
     return True
 
 
+def refresh_benchmark_analytics() -> bool:
+    """
+    Step 7: run the benchmark analytics engine (see benchmarks.py, Phase 6)
+    and write benchmark_metrics.csv + rolling_benchmark_metrics.csv. Only
+    runs after the return engine has succeeded, since it reuses
+    returns_daily.csv (plus benchmark_daily.csv and benchmark_map.csv) as
+    input. Each fund is matched to its own primary benchmark only.
+    """
+    _print_header("STEP 7/9 - Calculating benchmark-relative analytics (excess return, beta, tracking error, IR, capture)")
+    try:
+        results = run_benchmarks_engine()
+    except Exception as exc:  # noqa: BLE001 - top-level orchestrator must report, not crash silently
+        print(f"[FAILED] Benchmark analytics engine failed: {type(exc).__name__}: {exc}")
+        return False
+
+    benchmark_metrics = results["benchmark_metrics"]
+    rolling_benchmark_metrics = results["rolling_benchmark_metrics"]
+    print(f"[SUCCESS] Wrote {BENCHMARK_METRICS_PATH} ({len(benchmark_metrics)} fund(s))")
+    print(f"[SUCCESS] Wrote {ROLLING_BENCHMARK_METRICS_PATH} ({len(rolling_benchmark_metrics)} rows, "
+          f"{rolling_benchmark_metrics['fund_label'].nunique()} fund(s))")
+    return True
+
+
 def refresh_stress() -> bool:
     """
-    Step 7: run the stress engine (see stress.py, Phase 7) - historical
+    Step 8: run the stress engine (see stress.py, Phase 7) - historical
     replay + deterministic scenarios - and write stress_results.csv. Only
     runs after the return engine has succeeded, since it reuses
     returns_daily.csv / returns_monthly.csv as input.
     """
-    _print_header("STEP 7/8 - Running stress engine (historical replay + deterministic scenarios)")
+    _print_header("STEP 8/9 - Running stress engine (historical replay + deterministic scenarios)")
     try:
         results = run_stress_engine()
     except Exception as exc:  # noqa: BLE001 - top-level orchestrator must report, not crash silently
@@ -261,11 +298,11 @@ def refresh_stress() -> bool:
 
 def refresh_attribution() -> bool:
     """
-    Step 8: run the attribution engine (see attribution.py, Phase 7) and
+    Step 9: run the attribution engine (see attribution.py, Phase 7) and
     write attribution_results.csv. Only runs after the stress engine has
     succeeded, since it reuses stress_results.csv as input.
     """
-    _print_header("STEP 8/8 - Running attribution engine (allocation weight vs stress loss share)")
+    _print_header("STEP 9/9 - Running attribution engine (allocation weight vs stress loss share)")
     try:
         results = run_attribution_engine()
     except Exception as exc:  # noqa: BLE001 - top-level orchestrator must report, not crash silently
@@ -314,21 +351,27 @@ def main() -> int:
     metrics_skipped = False
     rolling_metrics_ok = False
     rolling_metrics_skipped = False
+    benchmark_analytics_ok = False
+    benchmark_analytics_skipped = False
     stress_ok = False
     stress_skipped = False
     if returns_ok:
         metrics_ok = refresh_metrics()
         rolling_metrics_ok = refresh_rolling_metrics()
+        benchmark_analytics_ok = refresh_benchmark_analytics()
         stress_ok = refresh_stress()
     else:
         metrics_skipped = True
         rolling_metrics_skipped = True
+        benchmark_analytics_skipped = True
         stress_skipped = True
-        _print_header("STEP 5/8 - Calculating fund-level metrics (CAGR, volatility, Sharpe, drawdown, VaR/CVaR, ...)")
+        _print_header("STEP 5/9 - Calculating fund-level metrics (CAGR, volatility, Sharpe, drawdown, VaR/CVaR, ...)")
         print("[SKIPPED] Metrics engine skipped because the return engine did not succeed.")
-        _print_header("STEP 6/8 - Calculating rolling metrics (rolling returns, volatility, Sharpe)")
+        _print_header("STEP 6/9 - Calculating rolling metrics (rolling returns, volatility, Sharpe)")
         print("[SKIPPED] Rolling metrics engine skipped because the return engine did not succeed.")
-        _print_header("STEP 7/8 - Running stress engine (historical replay + deterministic scenarios)")
+        _print_header("STEP 7/9 - Calculating benchmark-relative analytics (excess return, beta, tracking error, IR, capture)")
+        print("[SKIPPED] Benchmark analytics engine skipped because the return engine did not succeed.")
+        _print_header("STEP 8/9 - Running stress engine (historical replay + deterministic scenarios)")
         print("[SKIPPED] Stress engine skipped because the return engine did not succeed.")
 
     attribution_ok = False
@@ -337,7 +380,7 @@ def main() -> int:
         attribution_ok = refresh_attribution()
     else:
         attribution_skipped = True
-        _print_header("STEP 8/8 - Running attribution engine (allocation weight vs stress loss share)")
+        _print_header("STEP 9/9 - Running attribution engine (allocation weight vs stress loss share)")
         print("[SKIPPED] Attribution engine skipped because the stress engine did not succeed.")
 
     _print_header("REFRESH SUMMARY")
@@ -359,6 +402,10 @@ def main() -> int:
         print("Rolling metrics      : SKIPPED (return engine prerequisite failed)")
     else:
         print(f"Rolling metrics      : {'SUCCESS' if rolling_metrics_ok else 'FAILED'}")
+    if benchmark_analytics_skipped:
+        print("Benchmark analytics  : SKIPPED (return engine prerequisite failed)")
+    else:
+        print(f"Benchmark analytics  : {'SUCCESS' if benchmark_analytics_ok else 'FAILED'}")
     if stress_skipped:
         print("Stress engine        : SKIPPED (return engine prerequisite failed)")
     else:
@@ -375,13 +422,14 @@ def main() -> int:
         and returns_ok
         and metrics_ok
         and rolling_metrics_ok
+        and benchmark_analytics_ok
         and stress_ok
         and attribution_ok
     )
     if all_ok:
-        print("\nPhase 2 + Phase 3 + Phase 4 + Phase 5 + Phase 7 pipeline steps completed successfully.")
+        print("\nPhase 2 + Phase 3 + Phase 4 + Phase 5 + Phase 6 + Phase 7 pipeline steps completed successfully.")
         print("Check data_quality_report.csv above for any FAIL/WARNING entities before proceeding.")
-        print("Not yet implemented in this script: benchmark analytics, suitability.")
+        print("Not yet implemented in this script: suitability.")
         return 0
 
     print("\nOne or more pipeline steps failed. Resolve the errors above before proceeding.")

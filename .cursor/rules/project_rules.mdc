@@ -1,0 +1,35 @@
+You are working on an institutional-grade portfolio analytics proof-of-work project.
+
+Project:
+MF Risk Diagnostic Module
+
+Final public artifact:
+Streamlit-first webapp, supported by an Excel model of record, Power BI screenshot deck, GitHub README, Notion methodology, and LinkedIn carousel.
+
+Data approach:
+API-first. The user will not manually input NAV or TRI data. Mutual fund NAV data and benchmark/index data must be fetched programmatically and cached locally.
+
+Core rule:
+The Streamlit app must read processed CSVs. It must not make live API calls on every page load.
+
+Rules:
+1. Do not invent data.
+2. Do not hardcode final outputs.
+3. Do not require manual NAV/TRI file input for normal execution.
+4. MFAPI is used for automated mutual fund NAV extraction.
+5. Benchmark/index data must be fetched programmatically and cached.
+6. Do not silently label price-index proxies as TRI.
+7. Yahoo/yfinance fallbacks must be labelled as price-index proxies, not TRI.
+8. Every metric must disclose formula, frequency, interpretation, and limitation.
+9. Daily and monthly returns must not be mixed incorrectly.
+10. Benchmarks must be fund-specific.
+11. VaR and CVaR must be labelled by frequency.
+12. Stress-test assumptions must be labelled illustrative, not forecasts.
+13. Every chart must answer an investment question.
+14. Every page must end with interpretation, not just visuals.
+15. Keep code modular.
+16. Do not modify more than 3 files at once unless explicitly asked.
+17. Never rewrite the full repo unless explicitly requested.
+18. Keep model auditability higher priority than UI decoration.
+19. Maintain README, data dictionary, assumptions log, formula audit, model governance, and limitations files.
+20. If uncertain about a financial formula or benchmark source, stop and ask before implementing.

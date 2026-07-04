@@ -1,0 +1,6 @@
+fund_label,primary_benchmark,secondary_benchmark,benchmark_methodology,tri_required,proxy_allowed,proxy_warning
+UTI Nifty 50 Index,NIFTY50_TRI,NIFTY500_TRI,Nifty 50 Total Returns Index,TRUE,FALSE,
+ICICI Bluechip,NIFTY100_TRI,NIFTY500_TRI,Nifty 100 Total Returns Index preferred; fallback Nifty 50 TRI only if Nifty 100 TRI unavailable,TRUE,TRUE,Fallback must be disclosed
+Parag Parikh Flexi Cap,NIFTY500_TRI,NIFTY50_TRI,Nifty 500 TRI as diversified equity benchmark,TRUE,FALSE,
+HDFC Balanced Advantage,HYBRID_65_35,NIFTY50_TRI,65% Nifty 50 TRI + 35% daily 6% cash/debt proxy,TRUE,TRUE,Hybrid benchmark is internally synthesized approximation
+Nippon India Small Cap,NIFTYSMALLCAP250_TRI,NIFTY500_TRI,Nifty Smallcap 250 TRI,TRUE,FALSE,
