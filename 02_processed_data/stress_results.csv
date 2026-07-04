@@ -1,0 +1,46 @@
+scenario_type,scenario_name,fund_label,stress_return,window_start,window_end,rationale
+HISTORICAL_REPLAY,Worst 1-Month Portfolio Period,UTI Nifty 50 Index,-0.11319796550631134,2026-03-01,2026-03-31,"Actual calendar month with the lowest portfolio-weighted monthly return (-9.41%), using default portfolio_weights.csv."
+HISTORICAL_REPLAY,Worst 1-Month Portfolio Period,ICICI Bluechip,-0.10914239482200627,2026-03-01,2026-03-31,"Actual calendar month with the lowest portfolio-weighted monthly return (-9.41%), using default portfolio_weights.csv."
+HISTORICAL_REPLAY,Worst 1-Month Portfolio Period,Parag Parikh Flexi Cap,-0.06825665764770383,2026-03-01,2026-03-31,"Actual calendar month with the lowest portfolio-weighted monthly return (-9.41%), using default portfolio_weights.csv."
+HISTORICAL_REPLAY,Worst 1-Month Portfolio Period,HDFC Balanced Advantage,-0.08406467963889985,2026-03-01,2026-03-31,"Actual calendar month with the lowest portfolio-weighted monthly return (-9.41%), using default portfolio_weights.csv."
+HISTORICAL_REPLAY,Worst 1-Month Portfolio Period,Nippon India Small Cap,-0.09519771597350501,2026-03-01,2026-03-31,"Actual calendar month with the lowest portfolio-weighted monthly return (-9.41%), using default portfolio_weights.csv."
+HISTORICAL_REPLAY,Worst 3-Month Portfolio Period,UTI Nifty 50 Index,-0.14480697406636822,2026-01-01,2026-03-31,Rolling 3-calendar-month window with the lowest compounded portfolio-weighted return (-11.97%).
+HISTORICAL_REPLAY,Worst 3-Month Portfolio Period,ICICI Bluechip,-0.13415113627427844,2026-01-01,2026-03-31,Rolling 3-calendar-month window with the lowest compounded portfolio-weighted return (-11.97%).
+HISTORICAL_REPLAY,Worst 3-Month Portfolio Period,Parag Parikh Flexi Cap,-0.09974687640865021,2026-01-01,2026-03-31,Rolling 3-calendar-month window with the lowest compounded portfolio-weighted return (-11.97%).
+HISTORICAL_REPLAY,Worst 3-Month Portfolio Period,HDFC Balanced Advantage,-0.09481005387111274,2026-01-01,2026-03-31,Rolling 3-calendar-month window with the lowest compounded portfolio-weighted return (-11.97%).
+HISTORICAL_REPLAY,Worst 3-Month Portfolio Period,Nippon India Small Cap,-0.11680695364273841,2026-01-01,2026-03-31,Rolling 3-calendar-month window with the lowest compounded portfolio-weighted return (-11.97%).
+HISTORICAL_REPLAY,Worst 20-Trading-Day Portfolio Period,UTI Nifty 50 Index,-0.10460646299953658,2022-04-12,2022-05-12,Rolling 20-trading-day window with the lowest compounded portfolio-weighted return (-10.90%).
+HISTORICAL_REPLAY,Worst 20-Trading-Day Portfolio Period,ICICI Bluechip,-0.09857978279030832,2022-04-12,2022-05-12,Rolling 20-trading-day window with the lowest compounded portfolio-weighted return (-10.90%).
+HISTORICAL_REPLAY,Worst 20-Trading-Day Portfolio Period,Parag Parikh Flexi Cap,-0.12082876016925181,2022-04-12,2022-05-12,Rolling 20-trading-day window with the lowest compounded portfolio-weighted return (-10.90%).
+HISTORICAL_REPLAY,Worst 20-Trading-Day Portfolio Period,HDFC Balanced Advantage,-0.06928380004201218,2022-04-12,2022-05-12,Rolling 20-trading-day window with the lowest compounded portfolio-weighted return (-10.90%).
+HISTORICAL_REPLAY,Worst 20-Trading-Day Portfolio Period,Nippon India Small Cap,-0.14912833567505668,2022-04-12,2022-05-12,Rolling 20-trading-day window with the lowest compounded portfolio-weighted return (-10.90%).
+HISTORICAL_REPLAY,Worst Small-Cap Fund Period,UTI Nifty 50 Index,-0.05794127263921556,2025-02-01,2025-02-28,Calendar month of 'Nippon India Small Cap''s own worst historical monthly return (-11.91%); all portfolio funds' actual returns shown for the same window.
+HISTORICAL_REPLAY,Worst Small-Cap Fund Period,ICICI Bluechip,-0.0598610368786745,2025-02-01,2025-02-28,Calendar month of 'Nippon India Small Cap''s own worst historical monthly return (-11.91%); all portfolio funds' actual returns shown for the same window.
+HISTORICAL_REPLAY,Worst Small-Cap Fund Period,Parag Parikh Flexi Cap,-0.045103271119427135,2025-02-01,2025-02-28,Calendar month of 'Nippon India Small Cap''s own worst historical monthly return (-11.91%); all portfolio funds' actual returns shown for the same window.
+HISTORICAL_REPLAY,Worst Small-Cap Fund Period,HDFC Balanced Advantage,-0.042834261336248236,2025-02-01,2025-02-28,Calendar month of 'Nippon India Small Cap''s own worst historical monthly return (-11.91%); all portfolio funds' actual returns shown for the same window.
+HISTORICAL_REPLAY,Worst Small-Cap Fund Period,Nippon India Small Cap,-0.11909004164951986,2025-02-01,2025-02-28,Calendar month of 'Nippon India Small Cap''s own worst historical monthly return (-11.91%); all portfolio funds' actual returns shown for the same window.
+HISTORICAL_REPLAY,Worst Benchmark Drawdown Period,UTI Nifty 50 Index,-0.14654359764737934,2024-09-26,2025-02-28,Peak-to-trough window of NIFTY500_TRI's largest historical drawdown (-18.84%); all portfolio funds' actual returns shown for the same window.
+HISTORICAL_REPLAY,Worst Benchmark Drawdown Period,ICICI Bluechip,-0.14701365877313344,2024-09-26,2025-02-28,Peak-to-trough window of NIFTY500_TRI's largest historical drawdown (-18.84%); all portfolio funds' actual returns shown for the same window.
+HISTORICAL_REPLAY,Worst Benchmark Drawdown Period,Parag Parikh Flexi Cap,-0.06386979370473467,2024-09-26,2025-02-28,Peak-to-trough window of NIFTY500_TRI's largest historical drawdown (-18.84%); all portfolio funds' actual returns shown for the same window.
+HISTORICAL_REPLAY,Worst Benchmark Drawdown Period,HDFC Balanced Advantage,-0.09053911262256809,2024-09-26,2025-02-28,Peak-to-trough window of NIFTY500_TRI's largest historical drawdown (-18.84%); all portfolio funds' actual returns shown for the same window.
+HISTORICAL_REPLAY,Worst Benchmark Drawdown Period,Nippon India Small Cap,-0.2338018252600167,2024-09-26,2025-02-28,Peak-to-trough window of NIFTY500_TRI's largest historical drawdown (-18.84%); all portfolio funds' actual returns shown for the same window.
+DETERMINISTIC,Broad Equity Correction,UTI Nifty 50 Index,-0.15,,,"Equity selloff. Deterministic stress scenarios are illustrative assumptions, not forecasts."
+DETERMINISTIC,Small-cap Unwind,UTI Nifty 50 Index,-0.08,,,"Size/liquidity shock. Deterministic stress scenarios are illustrative assumptions, not forecasts."
+DETERMINISTIC,Correlation Breakdown,UTI Nifty 50 Index,-0.2,,,"Diversification failure. Deterministic stress scenarios are illustrative assumptions, not forecasts."
+DETERMINISTIC,Balanced Risk-Off,UTI Nifty 50 Index,-0.1,,,"Moderate correction. Deterministic stress scenarios are illustrative assumptions, not forecasts."
+DETERMINISTIC,Broad Equity Correction,ICICI Bluechip,-0.16,,,"Equity selloff. Deterministic stress scenarios are illustrative assumptions, not forecasts."
+DETERMINISTIC,Small-cap Unwind,ICICI Bluechip,-0.1,,,"Size/liquidity shock. Deterministic stress scenarios are illustrative assumptions, not forecasts."
+DETERMINISTIC,Correlation Breakdown,ICICI Bluechip,-0.21,,,"Diversification failure. Deterministic stress scenarios are illustrative assumptions, not forecasts."
+DETERMINISTIC,Balanced Risk-Off,ICICI Bluechip,-0.11,,,"Moderate correction. Deterministic stress scenarios are illustrative assumptions, not forecasts."
+DETERMINISTIC,Broad Equity Correction,Parag Parikh Flexi Cap,-0.18,,,"Equity selloff. Deterministic stress scenarios are illustrative assumptions, not forecasts."
+DETERMINISTIC,Small-cap Unwind,Parag Parikh Flexi Cap,-0.12,,,"Size/liquidity shock. Deterministic stress scenarios are illustrative assumptions, not forecasts."
+DETERMINISTIC,Correlation Breakdown,Parag Parikh Flexi Cap,-0.23,,,"Diversification failure. Deterministic stress scenarios are illustrative assumptions, not forecasts."
+DETERMINISTIC,Balanced Risk-Off,Parag Parikh Flexi Cap,-0.12,,,"Moderate correction. Deterministic stress scenarios are illustrative assumptions, not forecasts."
+DETERMINISTIC,Broad Equity Correction,HDFC Balanced Advantage,-0.08,,,"Equity selloff. Deterministic stress scenarios are illustrative assumptions, not forecasts."
+DETERMINISTIC,Small-cap Unwind,HDFC Balanced Advantage,-0.05,,,"Size/liquidity shock. Deterministic stress scenarios are illustrative assumptions, not forecasts."
+DETERMINISTIC,Correlation Breakdown,HDFC Balanced Advantage,-0.1,,,"Diversification failure. Deterministic stress scenarios are illustrative assumptions, not forecasts."
+DETERMINISTIC,Balanced Risk-Off,HDFC Balanced Advantage,-0.06,,,"Moderate correction. Deterministic stress scenarios are illustrative assumptions, not forecasts."
+DETERMINISTIC,Broad Equity Correction,Nippon India Small Cap,-0.28,,,"Equity selloff. Deterministic stress scenarios are illustrative assumptions, not forecasts."
+DETERMINISTIC,Small-cap Unwind,Nippon India Small Cap,-0.35,,,"Size/liquidity shock. Deterministic stress scenarios are illustrative assumptions, not forecasts."
+DETERMINISTIC,Correlation Breakdown,Nippon India Small Cap,-0.38,,,"Diversification failure. Deterministic stress scenarios are illustrative assumptions, not forecasts."
+DETERMINISTIC,Balanced Risk-Off,Nippon India Small Cap,-0.2,,,"Moderate correction. Deterministic stress scenarios are illustrative assumptions, not forecasts."
