@@ -1,0 +1,10 @@
+{
+  "fetched_at": "2026-07-04T14:21:02.279251+00:00",
+  "payload": {
+    "fund_label": "ICICI Bluechip",
+    "scheme_code": "120586",
+    "expected_scheme_name": "ICICI Prudential Large Cap Fund (erstwhile Bluechip Fund) - Direct Plan - Growth",
+    "returned_scheme_name": "ICICI Prudential Large Cap Fund (erstwhile Bluechip Fund) - Direct Plan - Growth",
+    "verification_status": "VERIFIED_VIA_MFAPI_METADATA"
+  }
+}

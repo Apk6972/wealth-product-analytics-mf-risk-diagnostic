@@ -1,0 +1,10 @@
+{
+  "fetched_at": "2026-07-04T14:21:02.627866+00:00",
+  "payload": {
+    "fund_label": "Parag Parikh Flexi Cap",
+    "scheme_code": "122639",
+    "expected_scheme_name": "Parag Parikh Flexi Cap Fund - Direct Growth",
+    "returned_scheme_name": "Parag Parikh Flexi Cap Fund - Direct Plan - Growth",
+    "verification_status": "VERIFIED_VIA_MFAPI_METADATA"
+  }
+}

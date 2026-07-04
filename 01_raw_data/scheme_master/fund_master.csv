@@ -1,0 +1,6 @@
+fund_label,scheme_code,expected_scheme_name,category,sleeve,primary_benchmark,secondary_benchmark,include,verification_status
+UTI Nifty 50 Index,120716,UTI Nifty 50 Index Fund - Direct Growth,Passive Large Cap,Core Equity,NIFTY50_TRI,NIFTY500_TRI,True,VERIFIED_VIA_MFAPI_METADATA
+ICICI Bluechip,120586,ICICI Prudential Large Cap Fund (erstwhile Bluechip Fund) - Direct Plan - Growth,Active Large Cap,Core Equity,NIFTY100_TRI,NIFTY500_TRI,True,VERIFIED_VIA_MFAPI_METADATA
+Parag Parikh Flexi Cap,122639,Parag Parikh Flexi Cap Fund - Direct Growth,Flexi Cap,Diversified Equity,NIFTY500_TRI,NIFTY50_TRI,True,VERIFIED_VIA_MFAPI_METADATA
+HDFC Balanced Advantage,118968,HDFC Balanced Advantage Fund - Growth Plan - Direct Plan,Hybrid / BAF,Hybrid Allocation,HYBRID_65_35,NIFTY50_TRI,True,VERIFIED_VIA_MFAPI_METADATA
+Nippon India Small Cap,118778,Nippon India Small Cap Fund - Direct Growth,Small Cap,Satellite Equity,NIFTYSMALLCAP250_TRI,NIFTY500_TRI,True,VERIFIED_VIA_MFAPI_METADATA

@@ -1,0 +1,10 @@
+{
+  "fetched_at": "2026-07-04T14:21:03.052747+00:00",
+  "payload": {
+    "fund_label": "HDFC Balanced Advantage",
+    "scheme_code": "118968",
+    "expected_scheme_name": "HDFC Balanced Advantage Fund - Growth Plan - Direct Plan",
+    "returned_scheme_name": "HDFC Balanced Advantage Fund - Growth Plan - Direct Plan",
+    "verification_status": "VERIFIED_VIA_MFAPI_METADATA"
+  }
+}
