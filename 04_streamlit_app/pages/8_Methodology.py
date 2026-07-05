@@ -209,7 +209,7 @@ fund-recommendation engine.
     if fund_master.empty:
         st.info(f"`{FUND_MASTER_PATH}` not found — run `python 04_streamlit_app/refresh_data.py`.")
     else:
-        st.dataframe(fund_master, use_container_width=True, hide_index=True)
+        st.dataframe(fund_master, width="stretch", hide_index=True)
     st.markdown(
         """
 **Sleeve rationale:**
@@ -315,7 +315,7 @@ fund as `API_FETCHED_METADATA_WARNING` rather than silently accepting a wrong sc
         PROCESSED_FILES_CATALOGUE,
         columns=["File", "Content type", "Scope", "Description"],
     )
-    st.dataframe(processed_files_df, use_container_width=True, hide_index=True)
+    st.dataframe(processed_files_df, width="stretch", hide_index=True)
     st.caption(
         "All files live in `02_processed_data/`. They are produced by "
         "`04_streamlit_app/refresh_data.py` and read by the Streamlit app. "
@@ -326,7 +326,7 @@ fund as `API_FETCHED_METADATA_WARNING` rather than silently accepting a wrong sc
     if benchmark_map.empty:
         st.info(f"`{BENCHMARK_MAP_PATH}` not found.")
     else:
-        st.dataframe(benchmark_map, use_container_width=True, hide_index=True)
+        st.dataframe(benchmark_map, width="stretch", hide_index=True)
     st.markdown(
         f"Required benchmark series: `{'`, `'.join(REQUIRED_BENCHMARKS)}`.\n\n"
         "Each fund is compared **only against its own primary benchmark** for beta, "
@@ -340,12 +340,12 @@ fund as `API_FETCHED_METADATA_WARNING` rather than silently accepting a wrong sc
     nav_legend_df = pd.DataFrame(
         {"source_quality": list(NAV_SOURCE_QUALITY_LEGEND.keys()), "Meaning": list(NAV_SOURCE_QUALITY_LEGEND.values())}
     )
-    st.dataframe(nav_legend_df, use_container_width=True, hide_index=True)
+    st.dataframe(nav_legend_df, width="stretch", hide_index=True)
     st.markdown("**Benchmark / index labels:**")
     benchmark_legend_df = pd.DataFrame(
         {"source_quality": list(BENCHMARK_SOURCE_QUALITY_LEGEND.keys()), "Meaning": list(BENCHMARK_SOURCE_QUALITY_LEGEND.values())}
     )
-    st.dataframe(benchmark_legend_df, use_container_width=True, hide_index=True)
+    st.dataframe(benchmark_legend_df, width="stretch", hide_index=True)
 
     st.warning(BENCHMARK_PROXY_DISCLAIMER)
     st.markdown(
@@ -362,7 +362,7 @@ fund as `API_FETCHED_METADATA_WARNING` rather than silently accepting a wrong sc
         quality_view = data_quality_report[
             ["fund_label_or_benchmark_label", "asset_type", "source", "source_quality", "status"]
         ].rename(columns={"fund_label_or_benchmark_label": "Fund / Benchmark", "asset_type": "Type"})
-        st.dataframe(quality_view, use_container_width=True, hide_index=True)
+        st.dataframe(quality_view, width="stretch", hide_index=True)
 
 # ===========================================================================
 # TAB 3 — Formula Definitions
@@ -413,7 +413,7 @@ with tab_formulas:
         ],
         columns=["Metric", "Formula", "Frequency", "Notes"],
     )
-    st.dataframe(returns_df, use_container_width=True, hide_index=True)
+    st.dataframe(returns_df, width="stretch", hide_index=True)
 
     # -----------------------------------------------------------------------
     # 8.2 HYBRID_65_35 construction
@@ -461,7 +461,7 @@ HYBRID_65_35 Value_t = HYBRID_65_35 Value_(t−1) × (1 + Hybrid Return_t)
         ],
         columns=["Metric", "Formula", "Frequency"],
     )
-    st.dataframe(core_metrics_df, use_container_width=True, hide_index=True)
+    st.dataframe(core_metrics_df, width="stretch", hide_index=True)
 
     # -----------------------------------------------------------------------
     # 8.4 Rolling metrics
@@ -477,7 +477,7 @@ HYBRID_65_35 Value_t = HYBRID_65_35 Value_(t−1) × (1 + Hybrid Return_t)
         ],
         columns=["Metric", "Formula", "Input frequency", "Windows"],
     )
-    st.dataframe(rolling_df, use_container_width=True, hide_index=True)
+    st.dataframe(rolling_df, width="stretch", hide_index=True)
     st.caption(
         "Early-window values (insufficient trailing history) are `NaN` — never forward-filled. "
         "A rolling value is only computed once the full trailing window is available."
@@ -504,7 +504,7 @@ HYBRID_65_35 Value_t = HYBRID_65_35 Value_(t−1) × (1 + Hybrid Return_t)
         ],
         columns=["Metric", "Formula", "Frequency / Notes"],
     )
-    st.dataframe(benchmark_formula_df, use_container_width=True, hide_index=True)
+    st.dataframe(benchmark_formula_df, width="stretch", hide_index=True)
     st.caption(
         "**annualised_excess_return** (IR numerator) = mean(daily excess_return) × 252 — "
         "a simple arithmetic annualisation of the mean, deliberately distinct from tracking error's "
@@ -548,7 +548,7 @@ scenario loss.
         ],
         columns=["Context", "Factor"],
     )
-    st.dataframe(ann_df, use_container_width=True, hide_index=True)
+    st.dataframe(ann_df, width="stretch", hide_index=True)
 
 # ===========================================================================
 # TAB 4 — Scenarios & Suitability
@@ -587,7 +587,7 @@ window** is reported — not just the fund that anchored the window's discovery.
     if stress_scenarios.empty:
         st.info(f"`{STRESS_SCENARIOS_PATH}` not found — run `python 04_streamlit_app/refresh_data.py`.")
     else:
-        st.dataframe(stress_scenarios, use_container_width=True, hide_index=True)
+        st.dataframe(stress_scenarios, width="stretch", hide_index=True)
     st.caption(
         'Each deterministic row carries the embedded disclosure: '
         '"Deterministic stress scenarios are illustrative assumptions, not forecasts."'
@@ -605,7 +605,7 @@ window** is reported — not just the fund that anchored the window's discovery.
     if portfolio_weights.empty:
         st.info(f"`{PORTFOLIO_WEIGHTS_PATH}` not found.")
     else:
-        st.dataframe(portfolio_weights, use_container_width=True, hide_index=True)
+        st.dataframe(portfolio_weights, width="stretch", hide_index=True)
     st.caption(
         "Weights are the default starting point for attribution; the Scenario Stress Testing page "
         "allows interactive overrides that are not persisted."
@@ -645,7 +645,7 @@ substituted with a guessed default.
         ],
         columns=["Factor", "LOW", "MEDIUM", "HIGH"],
     )
-    st.dataframe(factor_tiers_df, use_container_width=True, hide_index=True)
+    st.dataframe(factor_tiers_df, width="stretch", hide_index=True)
 
     st.markdown("#### Step 2 — Overall Risk Tier")
     st.markdown(
@@ -679,7 +679,7 @@ overall_risk_tier = LOW     if average_points < 1.75
         ],
         columns=["Gap (profile points − fund points)", "Role", "Action"],
     )
-    st.dataframe(gap_df, use_container_width=True, hide_index=True)
+    st.dataframe(gap_df, width="stretch", hide_index=True)
     st.caption(
         "Override: if the resulting role is Watchlist and benchmark-relative data (beta, downside capture) "
         "was unavailable for the fund, the action becomes 'Review benchmark-relative behaviour'. "
@@ -800,4 +800,4 @@ upgrades would be required before any production or client-facing deployment:
             "This file should be present in the repository."
         )
     else:
-        st.dataframe(assumptions_log, use_container_width=True, hide_index=True)
+        st.dataframe(assumptions_log, width="stretch", hide_index=True)
