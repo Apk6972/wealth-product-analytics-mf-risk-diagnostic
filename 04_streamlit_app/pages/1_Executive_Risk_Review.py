@@ -33,6 +33,7 @@ if str(_SRC_DIR) not in sys.path:
 import charts  # noqa: E402
 import data_loader as dl  # noqa: E402
 import disclosures  # noqa: E402
+import formatting  # noqa: E402
 from metrics import (  # noqa: E402
     calculate_annualized_volatility,
     calculate_cagr,
@@ -42,8 +43,6 @@ from metrics import (  # noqa: E402
 from utils import (  # noqa: E402
     DATA_START_DATE,
     DEFAULT_RISK_FREE_RATE,
-    format_inr_compact,
-    format_percent,
     is_dataframe_usable,
 )
 
@@ -120,6 +119,15 @@ st.markdown("##### *What risk created the return?*")
 
 disclosures.render_data_quality_banner()
 
+with st.expander("How to read this page"):
+    st.markdown(
+        "- KPI cards summarize a **blended portfolio** built from the five funds using the weights in "
+        "`portfolio_weights.csv` — not a single stored 'portfolio' series.\n"
+        "- The **Growth chart** shows the blended path alongside each fund grown individually, for context.\n"
+        "- The **Scenario Loss Ranking** and **Allocation vs. Stress Loss Share** charts show which fund "
+        "would hurt the portfolio most under stress — which is not always the fund with the largest weight."
+    )
+
 with st.sidebar:
     st.header("Assumptions")
     base_portfolio_value = st.number_input(
@@ -134,7 +142,7 @@ with st.sidebar:
             "return or risk calculation, which are all computed on percentages."
         ),
     )
-    st.caption(f"= {format_inr_compact(base_portfolio_value)}")
+    st.caption(f"= {formatting.format_inr_compact(base_portfolio_value)}")
 
     risk_free_rate_percent = st.number_input(
         "Risk-free rate (% p.a.)",
@@ -202,7 +210,7 @@ if portfolio_nav_df.empty or portfolio_returns_df.empty:
 
 with st.expander("Portfolio composition used for the KPIs and charts below"):
     composition_df = portfolio_weights.rename("weight").reset_index().rename(columns={"index": "fund_label"})
-    composition_df["weight"] = composition_df["weight"].apply(lambda w: format_percent(w))
+    composition_df["weight"] = composition_df["weight"].apply(lambda w: formatting.format_percent(w))
     st.dataframe(composition_df, hide_index=True, width="stretch")
     st.caption(
         "Portfolio-level figures below are a fixed-weight (rebalanced daily) blend of each fund's daily "
@@ -235,23 +243,32 @@ worst_stress_loss_inr = (
 st.subheader("Portfolio Risk Snapshot")
 
 row1 = st.columns(3)
-row1[0].metric("Portfolio CAGR", format_percent(portfolio_cagr))
-row1[1].metric("Portfolio Volatility (Ann.)", format_percent(portfolio_volatility))
-row1[2].metric("Max Drawdown", format_percent(portfolio_max_drawdown))
+row1[0].metric("Portfolio CAGR", formatting.format_percent(portfolio_cagr), help=formatting.metric_help("cagr"))
+row1[1].metric(
+    "Portfolio Volatility (Ann.)",
+    formatting.format_percent(portfolio_volatility),
+    help=formatting.metric_help("volatility"),
+)
+row1[2].metric(
+    "Max Drawdown", formatting.format_percent(portfolio_max_drawdown), help=formatting.metric_help("max_drawdown")
+)
 
 row2 = st.columns(3)
-row2[0].metric("Daily CVaR 95", format_percent(portfolio_daily_cvar_95))
-row2[1].metric("Worst Stress Loss", format_percent(worst_stress_loss_pct))
+row2[0].metric(
+    "Daily CVaR 95", formatting.format_percent(portfolio_daily_cvar_95), help=formatting.metric_help("daily_cvar_95")
+)
+row2[1].metric("Worst Stress Loss", formatting.format_percent(worst_stress_loss_pct))
 row2[2].metric(
     "Longest Recovery Period",
-    f"{portfolio_recovery_days:.0f} days" if pd.notna(portfolio_recovery_days) else "Not yet recovered",
+    formatting.format_days(portfolio_recovery_days, not_available_text="Not yet recovered"),
+    help=formatting.metric_help("recovery_period"),
 )
 
 if worst_scenario_name is not None:
     st.caption(
-        f"Worst modeled stress scenario: **{worst_scenario_name}** — {format_percent(worst_stress_loss_pct)} "
-        f"of portfolio value, illustratively ≈ {format_inr_compact(worst_stress_loss_inr)} on a "
-        f"{format_inr_compact(base_portfolio_value)} base."
+        f"Worst modeled stress scenario: **{worst_scenario_name}** — {formatting.format_percent(worst_stress_loss_pct)} "
+        f"of portfolio value, illustratively ≈ {formatting.format_inr_compact(worst_stress_loss_inr)} on a "
+        f"{formatting.format_inr_compact(base_portfolio_value)} base."
     )
 
 st.divider()
@@ -260,7 +277,7 @@ st.divider()
 # Charts
 # ---------------------------------------------------------------------------
 
-st.subheader(f"Growth of {format_inr_compact(base_portfolio_value)}")
+st.subheader(f"Growth of {formatting.format_inr_compact(base_portfolio_value)}")
 portfolio_nav_for_chart = portfolio_nav_df.copy()
 portfolio_nav_for_chart["fund_label"] = PORTFOLIO_SERIES_LABEL
 combined_nav_for_growth_chart = pd.concat(

@@ -22,6 +22,7 @@ if str(_SRC_DIR) not in sys.path:
 import charts  # noqa: E402
 import data_loader as dl  # noqa: E402
 import disclosures  # noqa: E402
+import formatting  # noqa: E402
 from utils import is_dataframe_usable  # noqa: E402
 
 REFRESH_COMMAND = "python 04_streamlit_app/refresh_data.py"
@@ -96,6 +97,16 @@ st.caption("How a fund's return and risk profile has evolved through different m
 
 disclosures.render_data_quality_banner()
 
+with st.expander("How to read this page"):
+    st.markdown(
+        "- Rolling metrics unfold a single trailing number (like full-history CAGR or Sharpe) into a "
+        "**moving history** across market regimes, for one fund selected in the sidebar.\n"
+        "- Watch for rolling windows fanning apart, volatility stepping up, or Sharpe/information ratio "
+        "crossing zero — each is flagged with what it means in the **Interpretation** box at the bottom.\n"
+        "- Early points on every chart are blank by design (not enough trailing history yet), never "
+        "forward-filled or estimated."
+    )
+
 rolling_metrics = dl.load_rolling_metrics()
 metrics_summary = dl.load_metrics_summary()
 rolling_benchmark_metrics = dl.load_rolling_benchmark_metrics()
@@ -147,6 +158,7 @@ st.plotly_chart(
 # ---------------------------------------------------------------------------
 
 st.markdown("#### Rolling Volatility (63D / 126D / 252D, Annualized)")
+st.caption(formatting.metric_help("volatility"))
 st.plotly_chart(
     _multi_metric_line_chart(
         rolling_metrics, ROLLING_VOL_METRICS, selected_fund, "Rolling Volatility by Window", "Annualized volatility"
@@ -159,6 +171,7 @@ st.plotly_chart(
 # ---------------------------------------------------------------------------
 
 st.markdown("#### Rolling 252-Day Sharpe Ratio")
+st.caption(formatting.metric_help("sharpe"))
 st.plotly_chart(charts.plot_rolling_sharpe(rolling_metrics, fund_labels=[selected_fund]), width="stretch")
 
 # ---------------------------------------------------------------------------
@@ -166,6 +179,7 @@ st.plotly_chart(charts.plot_rolling_sharpe(rolling_metrics, fund_labels=[selecte
 # ---------------------------------------------------------------------------
 
 st.markdown("#### Rolling Beta")
+st.caption(formatting.metric_help("beta"))
 if is_dataframe_usable(rolling_benchmark_metrics):
     st.plotly_chart(charts.plot_rolling_beta(rolling_benchmark_metrics, fund_labels=[selected_fund]), width="stretch")
 else:
@@ -175,6 +189,7 @@ else:
     )
 
 st.markdown("#### Rolling Information Ratio")
+st.caption(formatting.metric_help("information_ratio"))
 if is_dataframe_usable(rolling_benchmark_metrics):
     st.plotly_chart(
         charts.plot_rolling_information_ratio(rolling_benchmark_metrics, fund_labels=[selected_fund]),

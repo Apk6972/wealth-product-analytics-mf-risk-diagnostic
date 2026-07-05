@@ -69,6 +69,17 @@ st.caption("Educational, historical-risk-based diagnostics — not a recommendat
 
 disclosures.render_data_quality_banner()
 
+with st.expander("How to read this page"):
+    st.markdown(
+        "- Pick a client profile in the sidebar. Every table, warning, and board column below classifies "
+        "suitability **for that profile only** — the same fund can land in a different column under a "
+        "different profile.\n"
+        "- Classifications come purely from **trailing historical risk metrics** via a documented rules-based "
+        "rubric — never a buy/sell/hold instruction or personalized advice.\n"
+        "- Expand a fund's row at the bottom of the page for the full rationale behind its role and "
+        "recommended action."
+    )
+
 suitability_results = dl.load_suitability_results()
 
 if not is_dataframe_usable(suitability_results):

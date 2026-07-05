@@ -29,6 +29,7 @@ if str(_SRC_DIR) not in sys.path:
 
 import data_loader as dl  # noqa: E402
 import disclosures  # noqa: E402
+import formatting  # noqa: E402
 from returns import PROJECT_ROOT  # noqa: E402
 from utils import (  # noqa: E402
     BENCHMARK_PROXY_DISCLAIMER,
@@ -83,6 +84,16 @@ st.title("Methodology")
 st.caption("How the numbers on every other page were sourced, cleaned, calculated, and scored.")
 
 disclosures.render_data_quality_banner(stop_on_fail=False)
+
+with st.expander("How to read this page", expanded=False):
+    st.markdown(
+        "- This page documents **how** every other page's numbers were sourced, cleaned, calculated, and "
+        "scored — it does not show fund-level results itself.\n"
+        "- Use the tabs below: **Data Sources & Caveats**, **Fund Universe, Benchmark Map & Date Range**, "
+        "**Formula Definitions**, **Stress Assumptions**, and **Limitations & Disclaimer**.\n"
+        "- If a metric elsewhere in the app is unclear, its exact formula and frequency are in the "
+        "**Formula Definitions** tab."
+    )
 
 st.warning(EDUCATIONAL_DISCLAIMER)
 
@@ -192,8 +203,8 @@ with tab_sources:
 with tab_universe:
     st.markdown("### Date Range")
     if is_dataframe_usable(metrics_summary):
-        analysis_start = pd.to_datetime(metrics_summary["data_start_date"]).min().strftime("%d %b %Y")
-        analysis_end = pd.to_datetime(metrics_summary["data_end_date"]).max().strftime("%d %b %Y")
+        analysis_start = formatting.format_date(pd.to_datetime(metrics_summary["data_start_date"]).min())
+        analysis_end = formatting.format_date(pd.to_datetime(metrics_summary["data_end_date"]).max())
         st.markdown(
             f"- **Analysis horizon used for every calculation in this app: {analysis_start} to {analysis_end}** "
             f"(enforced floor: `DATA_START_DATE = {DATA_START_DATE}`)."
@@ -257,9 +268,9 @@ with tab_formulas:
     )
     st.dataframe(core_metrics_df, width="stretch", hide_index=True)
     st.caption(
-        f"risk_free_rate default = {DEFAULT_RISK_FREE_RATE:.0%} (overridable, always disclosed). VaR/CVaR are "
-        "never shown without stating daily vs. monthly. Daily and monthly annualization are never mixed within "
-        "the same ratio."
+        f"risk_free_rate default = {formatting.format_percent(DEFAULT_RISK_FREE_RATE, decimals=0)} (overridable, "
+        "always disclosed). VaR/CVaR are never shown without stating daily vs. monthly. Daily and monthly "
+        "annualization are never mixed within the same ratio."
     )
 
     st.markdown("### Rolling Metrics (`rolling_metrics.csv`)")

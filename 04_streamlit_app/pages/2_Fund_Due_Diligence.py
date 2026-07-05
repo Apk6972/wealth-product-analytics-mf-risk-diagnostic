@@ -22,21 +22,22 @@ if str(_SRC_DIR) not in sys.path:
 import charts  # noqa: E402
 import data_loader as dl  # noqa: E402
 import disclosures  # noqa: E402
-from utils import CLIENT_PROFILES, format_inr_compact, format_percent, is_dataframe_usable  # noqa: E402
+import formatting  # noqa: E402
+from utils import CLIENT_PROFILES, is_dataframe_usable  # noqa: E402
 
 REFRESH_COMMAND = "python 04_streamlit_app/refresh_data.py"
 GROWTH_BASE_VALUE = 10_000_000
 
-# metrics_summary.csv column -> (KPI card label, formatter)
+# metrics_summary.csv column -> (KPI card label, formatter kind, formatting.METRIC_HELP key or None)
 _METRIC_CARD_SPECS = [
-    ("cagr", "CAGR", "percent"),
-    ("annualized_volatility", "Volatility (Ann.)", "percent"),
-    ("sharpe_ratio", "Sharpe Ratio", "ratio"),
-    ("sortino_ratio", "Sortino Ratio", "ratio"),
-    ("max_drawdown", "Max Drawdown", "percent"),
-    ("worst_month", "Worst Month", "percent"),
-    ("daily_cvar_95", "Daily CVaR 95", "percent"),
-    ("recovery_period_days", "Recovery Period", "days"),
+    ("cagr", "CAGR", "percent", "cagr"),
+    ("annualized_volatility", "Volatility (Ann.)", "percent", "volatility"),
+    ("sharpe_ratio", "Sharpe Ratio", "ratio", "sharpe"),
+    ("sortino_ratio", "Sortino Ratio", "ratio", "sortino"),
+    ("max_drawdown", "Max Drawdown", "percent", "max_drawdown"),
+    ("worst_month", "Worst Month", "percent", None),
+    ("daily_cvar_95", "Daily CVaR 95", "percent", "daily_cvar_95"),
+    ("recovery_period_days", "Recovery Period", "days", "recovery_period"),
 ]
 
 
@@ -46,19 +47,13 @@ def _format_ratio(value: float) -> str:
     return f"{value:.2f}"
 
 
-def _format_days(value: float) -> str:
-    if value is None or pd.isna(value):
-        return "Not yet recovered"
-    return f"{value:.0f} days"
-
-
 def _format_metric_card_value(value: float, kind: str) -> str:
     if kind == "percent":
-        return format_percent(value)
+        return formatting.format_percent(value)
     if kind == "ratio":
         return _format_ratio(value)
     if kind == "days":
-        return _format_days(value)
+        return formatting.format_days(value, not_available_text="Not yet recovered")
     return str(value)
 
 
@@ -70,6 +65,16 @@ st.title("Fund Due Diligence")
 st.caption("A single fund's return path, drawdown behaviour, and risk metrics — in isolation.")
 
 disclosures.render_data_quality_banner()
+
+with st.expander("How to read this page"):
+    st.markdown(
+        "- Pick a fund and client profile in the sidebar. Every chart and metric below is for that "
+        "**single fund only** — nothing here is portfolio-blended.\n"
+        "- **Key Metrics** cards summarize the fund's full-history risk/return; hover the **?** icon on each "
+        "card for a plain-English definition.\n"
+        "- The **Suitability Note** at the bottom is an educational diagnostic for the selected profile only — "
+        "not a recommendation."
+    )
 
 nav_daily = dl.load_nav_daily()
 returns_monthly = dl.load_returns_monthly()
@@ -126,7 +131,10 @@ st.plotly_chart(
     charts.plot_growth_of_investment(nav_daily, base_value=GROWTH_BASE_VALUE, fund_labels=[selected_fund]),
     width="stretch",
 )
-st.caption(f"Growth of {format_inr_compact(GROWTH_BASE_VALUE)} invested in this fund from its first available NAV date.")
+st.caption(
+    f"Growth of {formatting.format_inr_compact(GROWTH_BASE_VALUE)} invested in this fund from its first "
+    "available NAV date."
+)
 
 # ---------------------------------------------------------------------------
 # Drawdown
@@ -165,9 +173,11 @@ if fund_metrics_rows.empty:
 else:
     fund_metrics_row = fund_metrics_rows.iloc[0]
     card_columns = st.columns(4)
-    for index, (column_name, label, kind) in enumerate(_METRIC_CARD_SPECS):
+    for index, (column_name, label, kind, help_key) in enumerate(_METRIC_CARD_SPECS):
         value = fund_metrics_row.get(column_name, float("nan"))
-        card_columns[index % 4].metric(label, _format_metric_card_value(value, kind))
+        card_columns[index % 4].metric(
+            label, _format_metric_card_value(value, kind), help=formatting.metric_help(help_key)
+        )
 
 st.divider()
 

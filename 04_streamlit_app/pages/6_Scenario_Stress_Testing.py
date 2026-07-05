@@ -25,8 +25,9 @@ if str(_SRC_DIR) not in sys.path:
 import charts  # noqa: E402
 import data_loader as dl  # noqa: E402
 import disclosures  # noqa: E402
+import formatting  # noqa: E402
 from stress import CUSTOM_DISCLOSURE, DEFAULT_BASE_PORTFOLIO_VALUE, run_custom_shock  # noqa: E402
-from utils import STRESS_TEST_DISCLAIMER, format_inr, format_percent, is_dataframe_usable  # noqa: E402
+from utils import STRESS_TEST_DISCLAIMER, is_dataframe_usable  # noqa: E402
 
 REFRESH_COMMAND = "python 04_streamlit_app/refresh_data.py"
 CUSTOM_SCENARIO_LABEL = "Custom Shock (interactive)"
@@ -58,20 +59,20 @@ def _render_scenario_results(scenario_df: pd.DataFrame, scenario_type: str, rati
     total_loss_amount_inr = scenario_df["loss_amount_inr"].sum()
 
     kpi_columns = st.columns(3)
-    kpi_columns[0].metric("Portfolio Stress Loss %", format_percent(total_portfolio_stress_return))
-    kpi_columns[1].metric("Loss Amount (INR)", format_inr(total_loss_amount_inr))
-    kpi_columns[2].metric("Post-Stress Portfolio Value", format_inr(post_stress_portfolio_value))
+    kpi_columns[0].metric("Portfolio Stress Loss %", formatting.format_percent(total_portfolio_stress_return))
+    kpi_columns[1].metric("Loss Amount (INR)", formatting.format_inr(total_loss_amount_inr))
+    kpi_columns[2].metric("Post-Stress Portfolio Value", formatting.format_inr(post_stress_portfolio_value))
 
     st.markdown("##### Fund-Wise Stress Contribution")
     display_df = scenario_df.sort_values("fund_loss_contribution").copy()
     table_df = pd.DataFrame(
         {
             "Fund": display_df["fund_label"],
-            "Weight": display_df["fund_weight"].apply(lambda v: format_percent(v)),
-            "Stress Return": display_df["fund_stress_return"].apply(lambda v: format_percent(v)),
-            "Loss Contribution": display_df["fund_loss_contribution"].apply(lambda v: format_percent(v)),
-            "Stress Loss Share": display_df["stress_loss_share"].apply(lambda v: format_percent(v)),
-            "Loss Amount (INR)": display_df["loss_amount_inr"].apply(format_inr),
+            "Weight": display_df["fund_weight"].apply(formatting.format_percent),
+            "Stress Return": display_df["fund_stress_return"].apply(formatting.format_percent),
+            "Loss Contribution": display_df["fund_loss_contribution"].apply(formatting.format_percent),
+            "Stress Loss Share": display_df["stress_loss_share"].apply(formatting.format_percent),
+            "Loss Amount (INR)": display_df["loss_amount_inr"].apply(formatting.format_inr),
             "Largest Contributor": display_df["is_largest_loss_contributor"].map({True: "Yes", False: ""}),
         }
     )
@@ -93,6 +94,16 @@ st.title("Scenario Stress Testing")
 st.caption("What happens to the portfolio's value if a historical shock, an illustrative assumption, or your own custom shock plays out?")
 
 disclosures.render_data_quality_banner()
+
+with st.expander("How to read this page"):
+    st.markdown(
+        "- Pick a historical, deterministic, or custom scenario in the sidebar. KPI cards show the "
+        "**portfolio-level** stress loss; the fund table and waterfall chart break that loss down fund-by-fund.\n"
+        "- **Allocation weight is not the same as stress loss share** — the allocation-vs-loss-share chart "
+        "flags any fund contributing a disproportionate share of the loss relative to its portfolio weight.\n"
+        "- Deterministic and Custom Shock scenarios are **illustrative assumptions, not forecasts**; Historical "
+        "Replay scenarios use actual historical returns over an identified worst-case window."
+    )
 
 stress_results = dl.load_stress_results()
 attribution_results = dl.load_attribution_results()
@@ -194,9 +205,4 @@ else:
     _render_scenario_results(scenario_df, scenario_type=scenario_type, rationale=rationale)
 
 st.divider()
-st.markdown(
-    "**How to read this page:** allocation weight and stress loss share are not the same thing — a fund can "
-    "carry a small portfolio weight yet contribute a disproportionate share of a scenario's total loss. Compare "
-    "the two bars in the allocation-vs-loss-share chart above for each fund to spot that gap."
-)
 st.caption("Educational analytics project. Not investment advice.")

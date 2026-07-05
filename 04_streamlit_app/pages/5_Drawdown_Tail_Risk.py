@@ -23,7 +23,8 @@ if str(_SRC_DIR) not in sys.path:
 import charts  # noqa: E402
 import data_loader as dl  # noqa: E402
 import disclosures  # noqa: E402
-from utils import format_percent, is_dataframe_usable  # noqa: E402
+import formatting  # noqa: E402
+from utils import is_dataframe_usable  # noqa: E402
 
 REFRESH_COMMAND = "python 04_streamlit_app/refresh_data.py"
 WORST_DRAWDOWNS_SHOWN = 5
@@ -101,10 +102,10 @@ def _episodes_to_display_table(episodes: List[dict]) -> pd.DataFrame:
         trough_to_recovery_days = (recovery_date - trough_date).days if recovery_date is not None else None
         rows.append(
             {
-                "Peak Date": peak_date.strftime("%d %b %Y"),
-                "Trough Date": trough_date.strftime("%d %b %Y"),
-                "Recovery Date": recovery_date.strftime("%d %b %Y") if recovery_date is not None else "—",
-                "Drawdown": format_percent(episode["drawdown"]),
+                "Peak Date": formatting.format_date(peak_date),
+                "Trough Date": formatting.format_date(trough_date),
+                "Recovery Date": formatting.format_date(recovery_date) if recovery_date is not None else "—",
+                "Drawdown": formatting.format_percent(episode["drawdown"]),
                 "Peak → Trough (days)": str(peak_to_trough_days),
                 "Trough → Recovery (days)": str(trough_to_recovery_days) if trough_to_recovery_days is not None else "—",
                 "Status": episode["status"],
@@ -120,13 +121,13 @@ def _recovery_interpretation_text(episodes: List[dict], metrics_row: pd.Series) 
         return "No drawdown episodes were found in this fund's NAV history."
 
     worst_episode = min(episodes, key=lambda ep: ep["drawdown"])
-    peak_date = worst_episode["peak_date"].strftime("%d %b %Y")
-    trough_date = worst_episode["trough_date"].strftime("%d %b %Y")
-    drawdown_pct = format_percent(worst_episode["drawdown"])
+    peak_date = formatting.format_date(worst_episode["peak_date"])
+    trough_date = formatting.format_date(worst_episode["trough_date"])
+    drawdown_pct = formatting.format_percent(worst_episode["drawdown"])
     peak_to_trough_days = (worst_episode["trough_date"] - worst_episode["peak_date"]).days
 
     if worst_episode["status"] == "Recovered":
-        recovery_date = worst_episode["recovery_date"].strftime("%d %b %Y")
+        recovery_date = formatting.format_date(worst_episode["recovery_date"])
         trough_to_recovery_days = (worst_episode["recovery_date"] - worst_episode["trough_date"]).days
         total_days = (worst_episode["recovery_date"] - worst_episode["peak_date"]).days
         narrative = (
@@ -141,7 +142,7 @@ def _recovery_interpretation_text(episodes: List[dict], metrics_row: pd.Series) 
         narrative = (
             f"This fund's deepest historical drawdown of **{drawdown_pct}** began at a peak on **{peak_date}** and "
             f"troughed on **{trough_date}**; as of the latest available data"
-            + (f" ({as_of_date.strftime('%d %b %Y')})" if as_of_date is not None else "")
+            + (f" ({formatting.format_date(as_of_date)})" if as_of_date is not None else "")
             + ", the fund **has not yet fully recovered** to that prior peak"
             + (f" — {days_below_peak} days and counting." if days_below_peak is not None else ".")
         )
@@ -178,6 +179,17 @@ st.title("Drawdown & Tail Risk")
 st.caption("How deep did losses get, how long did they last, and what does the return distribution's tail look like?")
 
 disclosures.render_data_quality_banner()
+
+with st.expander("How to read this page"):
+    st.markdown(
+        "- **Max Drawdown**, **Daily VaR 95**, **Daily CVaR 95**, and **Recovery Period** summarize downside "
+        "risk for one fund (see the sidebar) — hover the **?** icon on each card for a plain-English definition.\n"
+        "- The **Drawdown chart** and **worst-episode table** show every historical peak-to-trough-to-recovery "
+        "cycle, not just the single worst one.\n"
+        "- The **return distribution chart** shows where the VaR/CVaR thresholds sit within the daily return "
+        "histogram — both are always labelled **Daily**, since VaR/CVaR mean different things at different "
+        "frequencies."
+    )
 
 nav_daily = dl.load_nav_daily()
 returns_daily = dl.load_returns_daily()
@@ -225,12 +237,22 @@ if fund_metrics_rows.empty:
 fund_metrics_row = fund_metrics_rows.iloc[0]
 
 metric_columns = st.columns(4)
-metric_columns[0].metric("Max Drawdown", format_percent(fund_metrics_row["max_drawdown"]))
-metric_columns[1].metric("Daily VaR 95", format_percent(fund_metrics_row["daily_var_95"]))
-metric_columns[2].metric("Daily CVaR 95", format_percent(fund_metrics_row["daily_cvar_95"]))
+metric_columns[0].metric(
+    "Max Drawdown", formatting.format_percent(fund_metrics_row["max_drawdown"]), help=formatting.metric_help("max_drawdown")
+)
+metric_columns[1].metric(
+    "Daily VaR 95", formatting.format_percent(fund_metrics_row["daily_var_95"]), help=formatting.metric_help("daily_var_95")
+)
+metric_columns[2].metric(
+    "Daily CVaR 95",
+    formatting.format_percent(fund_metrics_row["daily_cvar_95"]),
+    help=formatting.metric_help("daily_cvar_95"),
+)
 recovery_days = fund_metrics_row["recovery_period_days"]
 metric_columns[3].metric(
-    "Longest Recovery Period", f"{recovery_days:.0f} days" if pd.notna(recovery_days) else "Not yet recovered"
+    "Longest Recovery Period",
+    formatting.format_days(recovery_days, not_available_text="Not yet recovered"),
+    help=formatting.metric_help("recovery_period"),
 )
 
 st.divider()
@@ -266,6 +288,7 @@ st.divider()
 # ---------------------------------------------------------------------------
 
 st.markdown("#### Daily Return Distribution — Daily VaR 95 / CVaR 95")
+st.caption(f"{formatting.metric_help('daily_var_95')} {formatting.metric_help('daily_cvar_95')}")
 st.plotly_chart(
     charts.plot_return_distribution(
         returns_daily,
@@ -293,8 +316,8 @@ with col_daily:
     else:
         display_df = pd.DataFrame(
             {
-                "Date": pd.to_datetime(worst_daily["date"]).dt.strftime("%d %b %Y"),
-                "Daily Return": worst_daily["daily_return"].apply(format_percent),
+                "Date": worst_daily["date"].apply(formatting.format_date),
+                "Daily Return": worst_daily["daily_return"].apply(formatting.format_percent),
             }
         )
         st.dataframe(display_df, width="stretch", hide_index=True)
@@ -310,8 +333,8 @@ with col_monthly:
     else:
         display_df = pd.DataFrame(
             {
-                "Month": pd.to_datetime(worst_monthly["month_end_date"]).dt.strftime("%b %Y"),
-                "Monthly Return": worst_monthly["monthly_return"].apply(format_percent),
+                "Month": worst_monthly["month_end_date"].apply(lambda d: formatting.format_date(d, fmt="%b %Y")),
+                "Monthly Return": worst_monthly["monthly_return"].apply(formatting.format_percent),
             }
         )
         st.dataframe(display_df, width="stretch", hide_index=True)

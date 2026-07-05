@@ -28,9 +28,10 @@ if str(_SRC_DIR) not in sys.path:
 import charts  # noqa: E402
 import data_loader as dl  # noqa: E402
 import disclosures  # noqa: E402
+import formatting  # noqa: E402
 from benchmarks import ROLLING_WINDOW_DAYS, align_fund_benchmark_returns  # noqa: E402
 from returns import calculate_benchmark_daily_returns  # noqa: E402
-from utils import TRADING_DAYS_PER_YEAR, format_percent, is_dataframe_usable  # noqa: E402
+from utils import TRADING_DAYS_PER_YEAR, is_dataframe_usable  # noqa: E402
 
 REFRESH_COMMAND = "python 04_streamlit_app/refresh_data.py"
 TEMPLATE = "plotly_white"
@@ -101,6 +102,16 @@ st.title("Benchmark Behaviour")
 st.caption("How much of a fund's return path is explained by its own benchmark — and how much is not.")
 
 disclosures.render_data_quality_banner()
+
+with st.expander("How to read this page"):
+    st.markdown(
+        "- Every fund is compared only to its **own primary benchmark** (never one shared index for all funds).\n"
+        "- A fund can beat its benchmark on raw return while still failing this page's diagnostic — e.g. a "
+        "beta well above 1, low upside capture combined with high downside capture, or a negative rolling "
+        "information ratio all indicate the excess return has not reliably compensated for the risk taken.\n"
+        "- Check the source-quality warning above the metric cards before trusting these figures: some "
+        "benchmarks are price-index proxies or disclosed approximations, not official TRI data."
+    )
 
 nav_daily = dl.load_nav_daily()
 benchmark_daily = dl.load_benchmark_daily()
@@ -176,12 +187,32 @@ else:
 # ---------------------------------------------------------------------------
 
 metric_columns = st.columns(6)
-metric_columns[0].metric("Beta", _format_ratio(fund_metrics_row["beta"]))
-metric_columns[1].metric("Tracking Error (Ann.)", format_percent(fund_metrics_row["tracking_error"]))
-metric_columns[2].metric("Information Ratio", _format_ratio(fund_metrics_row["information_ratio"]))
-metric_columns[3].metric("Excess Return (Ann.)", format_percent(fund_metrics_row["excess_return_ann"]))
-metric_columns[4].metric("Upside Capture", format_percent(fund_metrics_row["upside_capture"], decimals=0))
-metric_columns[5].metric("Downside Capture", format_percent(fund_metrics_row["downside_capture"], decimals=0))
+metric_columns[0].metric("Beta", _format_ratio(fund_metrics_row["beta"]), help=formatting.metric_help("beta"))
+metric_columns[1].metric(
+    "Tracking Error (Ann.)",
+    formatting.format_percent(fund_metrics_row["tracking_error"]),
+    help=formatting.metric_help("tracking_error"),
+)
+metric_columns[2].metric(
+    "Information Ratio",
+    _format_ratio(fund_metrics_row["information_ratio"]),
+    help=formatting.metric_help("information_ratio"),
+)
+metric_columns[3].metric(
+    "Excess Return (Ann.)",
+    formatting.format_percent(fund_metrics_row["excess_return_ann"]),
+    help=formatting.metric_help("excess_return"),
+)
+metric_columns[4].metric(
+    "Upside Capture",
+    formatting.format_percent(fund_metrics_row["upside_capture"], decimals=0),
+    help=formatting.metric_help("upside_capture"),
+)
+metric_columns[5].metric(
+    "Downside Capture",
+    formatting.format_percent(fund_metrics_row["downside_capture"], decimals=0),
+    help=formatting.metric_help("downside_capture"),
+)
 
 st.divider()
 
@@ -236,9 +267,4 @@ st.caption("Each fund plotted against its own primary benchmark. Top-left is his
 st.plotly_chart(charts.plot_upside_downside_capture_scatter(benchmark_metrics), width="stretch")
 
 st.divider()
-st.markdown(
-    "**How to read this page:** a fund can beat its benchmark on raw return while still failing this page's "
-    "diagnostic — e.g. a beta well above 1, low upside capture combined with high downside capture, or a "
-    "negative rolling information ratio all indicate the excess return has not been reliably compensated risk."
-)
 st.caption("Educational analytics project. Not investment advice.")
