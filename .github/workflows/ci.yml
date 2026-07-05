@@ -1,0 +1,49 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      # -----------------------------------------------------------------------
+      # 1. Source code
+      # -----------------------------------------------------------------------
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      # -----------------------------------------------------------------------
+      # 2. Python runtime
+      # -----------------------------------------------------------------------
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      # -----------------------------------------------------------------------
+      # 3. Dependencies
+      # -----------------------------------------------------------------------
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # -----------------------------------------------------------------------
+      # 4. Syntax check — catches broken .py files before running any tests
+      # -----------------------------------------------------------------------
+      - name: Compile all Python files
+        run: python -m compileall . --quiet
+
+      # -----------------------------------------------------------------------
+      # 5. Tests — data-file integrity, import smoke, metrics sanity & unit tests
+      # -----------------------------------------------------------------------
+      - name: Run pytest
+        run: pytest
+
+      # -----------------------------------------------------------------------
+      # 6. Lint — pycodestyle errors, pyflakes, undefined names
+      # -----------------------------------------------------------------------
+      - name: Lint with ruff
+        run: ruff check .

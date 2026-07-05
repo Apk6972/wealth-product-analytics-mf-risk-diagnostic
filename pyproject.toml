@@ -1,0 +1,31 @@
+[tool.ruff]
+# Target the Python version used in CI and production.
+target-version = "py311"
+line-length = 120
+
+# Directories that should never be linted.
+exclude = [
+    ".git",
+    ".venv",
+    "venv",
+    "__pycache__",
+    "*.egg-info",
+]
+
+[tool.ruff.lint]
+# E — pycodestyle errors  (indentation, whitespace, blank lines)
+# F — pyflakes             (undefined names, unused imports)
+# W — pycodestyle warnings
+select = ["E", "F", "W"]
+
+# E501 line-too-long: several pages contain long string constants (rationale
+#   text, disclaimer copy) that would need meaningless wrapping to satisfy a
+#   strict character limit.  Everything else in E/F/W remains enforced.
+# W503/W504: conflicting line-break rules — not applicable to ruff, but
+#   silenced defensively.
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+# Default test discovery root — keeps `pytest` (no args) working from the
+# project root without picking up spurious test files elsewhere.
+testpaths = ["tests"]

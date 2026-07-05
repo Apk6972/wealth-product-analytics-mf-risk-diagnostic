@@ -28,7 +28,7 @@ _SRC_DIR = _THIS_FILE.parent
 if str(_SRC_DIR) not in sys.path:
     sys.path.insert(0, str(_SRC_DIR))
 
-from returns import PROCESSED_DATA_DIR, PROJECT_ROOT  # noqa: E402 - sys.path must be configured before this import
+from returns import PROCESSED_DATA_DIR  # noqa: E402 - sys.path must be configured before this import
 
 # ---------------------------------------------------------------------------
 # Expected schemas — used to build a correctly-shaped empty DataFrame when a
