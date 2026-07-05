@@ -6,9 +6,9 @@ Reference: 00_project_control/master_project_instructions.md.md §22
 
 Inputs:
     02_processed_data/metrics_summary.csv
-    02_processed_data/benchmark_metrics.csv (optional — benchmarks.py is not
-        yet implemented; rolling beta / downside capture gracefully degrade
-        to "not available" rather than failing the whole engine)
+    02_processed_data/benchmark_metrics.csv (optional — if absent or empty,
+        rolling beta / downside capture gracefully degrade to "not available"
+        rather than failing the whole engine)
     02_processed_data/stress_results.csv
     02_processed_data/attribution_results.csv
     01_raw_data/scheme_master/portfolio_weights.csv
@@ -329,9 +329,9 @@ def _extract_benchmark_relative_factors(
     benchmark_metrics: Optional[pd.DataFrame], fund_label: str
 ) -> Tuple[float, float, bool]:
     """Returns (rolling_beta, downside_capture, benchmark_relative_data_available).
-    benchmark_metrics may be None/empty (benchmarks.py, Phase 6, is not yet
-    implemented) - handled gracefully rather than raising. If a fund has
-    more than one row (multiple benchmark_label entries), the first is used."""
+    benchmark_metrics may be None/empty (e.g. benchmarks pipeline not yet run) —
+    handled gracefully rather than raising. If a fund has more than one row
+    (multiple benchmark_label entries), the first is used."""
     if benchmark_metrics is None or benchmark_metrics.empty:
         return float("nan"), float("nan"), False
     fund_rows = benchmark_metrics[benchmark_metrics["fund_label"] == fund_label]
@@ -666,9 +666,9 @@ def _load_metrics_summary() -> pd.DataFrame:
 
 
 def _load_benchmark_metrics() -> Optional[pd.DataFrame]:
-    """benchmark_metrics.csv is optional (benchmarks.py, Phase 6, is not yet
-    implemented) - rolling beta / downside capture gracefully degrade to
-    "not available" rather than failing the whole engine."""
+    """benchmark_metrics.csv is optional — if absent, rolling beta / downside
+    capture gracefully degrade to "not available" rather than failing the
+    whole engine."""
     if not BENCHMARK_METRICS_PATH.exists():
         return None
     return pd.read_csv(BENCHMARK_METRICS_PATH)

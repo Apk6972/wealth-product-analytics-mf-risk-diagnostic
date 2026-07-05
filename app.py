@@ -1,9 +1,10 @@
 """
 MF Risk Diagnostic Module — Streamlit entry point.
 
-Scaffold placeholder: this file only wires up navigation between the eight
-planned pages. It does not fetch data, load processed CSVs, or run any
-calculation logic.
+Functional V1: registers all eight implemented pages and wires multi-page
+navigation. Each page loads from 02_processed_data/ via data_loader.py and
+runs display and charting logic through charts.py. No live data is fetched
+on page load.
 
 Reference: 00_project_control/master_project_instructions.md.md §23 (Streamlit
 App Layout). Non-negotiable runtime rule: the app must never fetch live data

@@ -1,6 +1,6 @@
 # Formula Audit — MF Risk Diagnostic Module
 
-Every formula used in this project is recorded here with: definition, frequency, inputs, and non-negotiable interpretation rules. No metric may be implemented or displayed without a corresponding entry in this file. This is a planning-stage audit; formulas are not yet implemented in code.
+Every formula used in this project is recorded here with: definition, frequency, inputs, and non-negotiable interpretation rules. No metric may be implemented or displayed without a corresponding entry in this file. This audit reflects the V1 implementation; formulas are implemented in `04_streamlit_app/src/`.
 
 ---
 

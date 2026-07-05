@@ -11,12 +11,10 @@ themselves, not here).
 Design notes:
 - Every function returns a `plotly.graph_objects.Figure` rather than
   rendering directly (no `st.plotly_chart(...)` call inside this module),
-  so charts.py stays Streamlit-agnostic and testable outside a running
-  app, per "do not build Streamlit pages yet."
+  so charts.py stays Streamlit-agnostic and testable outside a running app.
 - Every function is defensive: if the required input DataFrame(s) are
-  missing/empty/malformed, it returns a placeholder figure with an
-  explanatory annotation instead of raising, matching data_loader.py's
-  "never crash the page, just say data isn't available yet" philosophy.
+  missing/empty/malformed, it returns an annotated placeholder figure instead
+  of raising, matching data_loader.py's "never crash the page" philosophy.
 - Functions take already-loaded DataFrames (from data_loader.py) as
   arguments; this module never reads files itself.
 """
@@ -358,8 +356,8 @@ def plot_rolling_sharpe(rolling_metrics: pd.DataFrame, fund_labels: Optional[Lis
 # ---------------------------------------------------------------------------
 # Rolling benchmark-relative metrics (rolling_benchmark_metrics.csv: date,
 # fund_label, benchmark_label, rolling_252d_beta, rolling_252d_tracking_error,
-# rolling_252d_information_ratio). benchmarks.py has not been implemented
-# yet, so these gracefully render a placeholder until that file exists.
+# rolling_252d_information_ratio). These gracefully render an annotated
+# placeholder figure when the CSV is absent or empty.
 # ---------------------------------------------------------------------------
 
 _ROLLING_BENCHMARK_METRIC_DISPLAY_NAMES = {

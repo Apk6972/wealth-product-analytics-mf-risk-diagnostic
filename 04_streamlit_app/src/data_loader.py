@@ -158,10 +158,9 @@ def load_benchmark_monthly() -> pd.DataFrame:
 def load_benchmark_metrics() -> pd.DataFrame:
     """
     Load 02_processed_data/benchmark_metrics.csv (fund-level beta, tracking
-    error, information ratio, upside/downside capture). benchmarks.py has
-    not been implemented yet as of this module's authoring, so this
-    currently returns an empty (correctly-shaped) DataFrame with a warning
-    until that pipeline stage exists.
+    error, information ratio, upside/downside capture). Returns an empty
+    correctly-shaped DataFrame with a warning if the file is absent or empty
+    (e.g. benchmarks pipeline step has not been run yet).
     """
     return _safe_load_csv("benchmark_metrics.csv")
 
@@ -169,8 +168,8 @@ def load_benchmark_metrics() -> pd.DataFrame:
 def load_rolling_benchmark_metrics() -> pd.DataFrame:
     """
     Load 02_processed_data/rolling_benchmark_metrics.csv (rolling 252-day
-    beta, tracking error, information ratio). See load_benchmark_metrics()
-    docstring re: benchmarks.py not being implemented yet.
+    beta, tracking error, information ratio). Returns an empty DataFrame
+    with a warning if the file is absent or empty.
     """
     return _safe_load_csv("rolling_benchmark_metrics.csv", parse_dates=["date"])
 

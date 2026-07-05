@@ -12,7 +12,7 @@ Data approach: **API-first**. The user does not manually input NAV or TRI data. 
 
 ## 2. Operating Rules (Cursor Rules — canonical copy)
 
-These rules should also be mirrored into `.cursor/rules/project_rules.mdc` during scaffold:
+These rules are mirrored into `.cursor/rules/project_rules.mdc`:
 
 1. Do not invent data.
 2. Do not hardcode final outputs.
@@ -97,7 +97,7 @@ If benchmark TRI data cannot be fetched and no valid cache exists:
 - Never rewrite the full repository unless explicitly requested.
 - Each build phase (see `implementation_plan.md`) should be implemented as an isolated, reviewable step — one module or one page at a time.
 - No network requests may execute on module import; every fetch must be an explicit, callable function.
-- No application code, Python modules, or Streamlit pages are created until this planning phase is explicitly approved and a subsequent scaffold prompt is issued.
+- Python modules and Streamlit pages are implemented one phase at a time; do not skip ahead across phases without explicit review and approval.
 
 ## 5. Disclosure Obligations
 
