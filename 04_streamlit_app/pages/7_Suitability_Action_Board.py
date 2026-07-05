@@ -25,6 +25,7 @@ if str(_SRC_DIR) not in sys.path:
     sys.path.insert(0, str(_SRC_DIR))
 
 import data_loader as dl  # noqa: E402
+import disclosures  # noqa: E402
 from suitability import (  # noqa: E402
     ROLE_AGGRESSIVE_SATELLITE,
     ROLE_CORE,
@@ -65,6 +66,8 @@ ROLE_DISPLAY_STYLE = {
 
 st.title("Suitability & Action Board")
 st.caption("Educational, historical-risk-based diagnostics — not a recommendation to buy, sell, or hold anything.")
+
+disclosures.render_data_quality_banner()
 
 suitability_results = dl.load_suitability_results()
 

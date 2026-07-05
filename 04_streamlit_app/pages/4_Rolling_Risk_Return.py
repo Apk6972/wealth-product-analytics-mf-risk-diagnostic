@@ -21,6 +21,7 @@ if str(_SRC_DIR) not in sys.path:
 
 import charts  # noqa: E402
 import data_loader as dl  # noqa: E402
+import disclosures  # noqa: E402
 from utils import is_dataframe_usable  # noqa: E402
 
 REFRESH_COMMAND = "python 04_streamlit_app/refresh_data.py"
@@ -92,6 +93,8 @@ def _multi_metric_line_chart(
 
 st.title("Rolling Risk & Return")
 st.caption("How a fund's return and risk profile has evolved through different market regimes.")
+
+disclosures.render_data_quality_banner()
 
 rolling_metrics = dl.load_rolling_metrics()
 metrics_summary = dl.load_metrics_summary()

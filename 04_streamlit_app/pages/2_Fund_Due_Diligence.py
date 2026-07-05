@@ -21,6 +21,7 @@ if str(_SRC_DIR) not in sys.path:
 
 import charts  # noqa: E402
 import data_loader as dl  # noqa: E402
+import disclosures  # noqa: E402
 from utils import CLIENT_PROFILES, format_inr_compact, format_percent, is_dataframe_usable  # noqa: E402
 
 REFRESH_COMMAND = "python 04_streamlit_app/refresh_data.py"
@@ -67,6 +68,8 @@ def _format_metric_card_value(value: float, kind: str) -> str:
 
 st.title("Fund Due Diligence")
 st.caption("A single fund's return path, drawdown behaviour, and risk metrics — in isolation.")
+
+disclosures.render_data_quality_banner()
 
 nav_daily = dl.load_nav_daily()
 returns_monthly = dl.load_returns_monthly()

@@ -28,6 +28,7 @@ if str(_SRC_DIR) not in sys.path:
     sys.path.insert(0, str(_SRC_DIR))
 
 import data_loader as dl  # noqa: E402
+import disclosures  # noqa: E402
 from returns import PROJECT_ROOT  # noqa: E402
 from utils import (  # noqa: E402
     BENCHMARK_PROXY_DISCLAIMER,
@@ -80,6 +81,8 @@ def _read_config_csv(path: Path) -> pd.DataFrame:
 
 st.title("Methodology")
 st.caption("How the numbers on every other page were sourced, cleaned, calculated, and scored.")
+
+disclosures.render_data_quality_banner(stop_on_fail=False)
 
 st.warning(EDUCATIONAL_DISCLAIMER)
 

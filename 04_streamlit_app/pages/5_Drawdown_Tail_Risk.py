@@ -22,6 +22,7 @@ if str(_SRC_DIR) not in sys.path:
 
 import charts  # noqa: E402
 import data_loader as dl  # noqa: E402
+import disclosures  # noqa: E402
 from utils import format_percent, is_dataframe_usable  # noqa: E402
 
 REFRESH_COMMAND = "python 04_streamlit_app/refresh_data.py"
@@ -175,6 +176,8 @@ def _recovery_interpretation_text(episodes: List[dict], metrics_row: pd.Series) 
 
 st.title("Drawdown & Tail Risk")
 st.caption("How deep did losses get, how long did they last, and what does the return distribution's tail look like?")
+
+disclosures.render_data_quality_banner()
 
 nav_daily = dl.load_nav_daily()
 returns_daily = dl.load_returns_daily()

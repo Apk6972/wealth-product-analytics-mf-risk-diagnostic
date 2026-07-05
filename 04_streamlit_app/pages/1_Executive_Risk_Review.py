@@ -32,6 +32,7 @@ if str(_SRC_DIR) not in sys.path:
 
 import charts  # noqa: E402
 import data_loader as dl  # noqa: E402
+import disclosures  # noqa: E402
 from metrics import (  # noqa: E402
     calculate_annualized_volatility,
     calculate_cagr,
@@ -116,6 +117,8 @@ def _build_portfolio_series(
 
 st.title("MF Risk Diagnostic Module — Executive Risk Review")
 st.markdown("##### *What risk created the return?*")
+
+disclosures.render_data_quality_banner()
 
 with st.sidebar:
     st.header("Assumptions")

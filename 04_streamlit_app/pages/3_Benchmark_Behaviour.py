@@ -27,6 +27,7 @@ if str(_SRC_DIR) not in sys.path:
 
 import charts  # noqa: E402
 import data_loader as dl  # noqa: E402
+import disclosures  # noqa: E402
 from benchmarks import ROLLING_WINDOW_DAYS, align_fund_benchmark_returns  # noqa: E402
 from returns import calculate_benchmark_daily_returns  # noqa: E402
 from utils import TRADING_DAYS_PER_YEAR, format_percent, is_dataframe_usable  # noqa: E402
@@ -98,6 +99,8 @@ def _rolling_excess_return_figure(rolling_excess_return: pd.DataFrame, fund_labe
 
 st.title("Benchmark Behaviour")
 st.caption("How much of a fund's return path is explained by its own benchmark — and how much is not.")
+
+disclosures.render_data_quality_banner()
 
 nav_daily = dl.load_nav_daily()
 benchmark_daily = dl.load_benchmark_daily()

@@ -24,6 +24,7 @@ if str(_SRC_DIR) not in sys.path:
 
 import charts  # noqa: E402
 import data_loader as dl  # noqa: E402
+import disclosures  # noqa: E402
 from stress import CUSTOM_DISCLOSURE, DEFAULT_BASE_PORTFOLIO_VALUE, run_custom_shock  # noqa: E402
 from utils import STRESS_TEST_DISCLAIMER, format_inr, format_percent, is_dataframe_usable  # noqa: E402
 
@@ -90,6 +91,8 @@ def _render_scenario_results(scenario_df: pd.DataFrame, scenario_type: str, rati
 
 st.title("Scenario Stress Testing")
 st.caption("What happens to the portfolio's value if a historical shock, an illustrative assumption, or your own custom shock plays out?")
+
+disclosures.render_data_quality_banner()
 
 stress_results = dl.load_stress_results()
 attribution_results = dl.load_attribution_results()
