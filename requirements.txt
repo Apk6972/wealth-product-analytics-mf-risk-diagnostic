@@ -11,3 +11,8 @@ requests
 yfinance
 beautifulsoup4
 lxml
+
+# development / testing
+pytest
+ruff
+black
